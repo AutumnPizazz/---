@@ -1,0 +1,439 @@
+[
+	       {
+		//nations
+		"name": "神圣骑士帝国",
+		"leaderName": "骑士王莱娜酱",
+		"preferredVictoryType": "Domination",
+		"startBias": ["Horses"],		
+		"startIntroPart1": "神圣骑士帝国原本是由骑士王莱娜代理的王朝远征军，与精灵矮人联军大战后被亡灵阻挡无法回到王朝，骑士王莱娜在众骑士的簇拥下建立的第二王朝。击退亡灵天灾后骑士王晋升为半神，为了对抗天灾元素，将第二王朝转化为信仰骑士王的宗教国家神圣骑士帝国。",
+		"startIntroPart2": "在共同的敌人面前，矮人和帝国直接放下成见联合在一起共同对抗亡灵天灾。骑士们高傲而坚定，努力而强大，和王朝不同的是，他们愿意接受不同的种族和信仰，除了帝国国教以外还有不少不同的宗教，无论帝国的骑士信仰什么宗教，他们都对骑士王无比的崇拜与尊敬。",	
+		"declaringWar": "为了骑士的荣耀！向你发起决斗！",
+		"attacked": "朋友，我们之间大可不必如此。",
+		"defeated": "我的朋友，请不要不要继续发动战争了。",
+		"introduction": "您好，远方的客人，希望我们能成为很要好的朋友！",
+		"neutralHello": "来吧！我慷慨的朋友！",
+		"hateHello": "让我们坐下来好好谈谈，好吗？",
+		"tradeRequest":"这对我们都有好处，我喜欢这样！",
+              "uniqueName": "骑士荣耀",		
+              "uniques": [             
+              "Starts with [Animal Husbandry]",
+              ——
+              "[All] units gain the [战术—侦查] promotion",
+              【+1速+1视野】
+              "[All] units gain the [战吼—无畏] promotion",
+              【减血不减攻】
+              ——
+              "[+1 Faith] [in all cities]", 
+              "[+50]% [Faith] [in all cities]",            
+              ——
+              "[+1 Production, +1 Faith] from every [Pasture]",
+              ——
+              "Gain a free [养马场] [in all cities]",
+              【送俩马】
+              ——
+              "May buy [Military] units with [Faith] for [4] times their normal Production cost",
+              "May buy [教士] units with [Faith] for [2] times their normal Production cost"
+              【200信一个1产1粮3信地块
+              相邻马家+1产1粮，相邻牛羊+1信】
+              ——
+              ],
+		"outerColor": [50,90,200],
+		"innerColor": [100,20,200],
+		"cities": [
+		"神圣帝都",
+		"加冕圣殿",
+		"神圣骑士学院",
+		"神圣游侠学院",
+		"骑士圣殿",
+		"游侠圣殿",
+		"骑士军营"
+		"前线要塞"
+		],
+	       },
+	       {
+		//nations
+		"name": "战歌兽人部落",
+		"leaderName": "天狐凶恶傲娇小萝莉闪电",
+		"preferredVictoryType": "Domination",		
+		"startIntroPart1": "写了也没人看",
+		"declaringWar": "我们需要新的食物！",
+		"attacked": "食物自己送上门了！",
+		"defeated": "兽人永不为奴！！！",
+		"introduction": "你好啊！看起来很好吃的小东西！",
+		"neutralHello": "打劫！把食物交出来！",
+		"hateHello": "不打了！不打了！",
+		"tradeRequest":"这块肉给你！这块肉给我！",
+              "uniqueName": "部落永存",
+		"uniques": [
+		"[All] units gain the [一阶攻击强化] promotion",
+		【20%攻击力】
+              "[All] units gain the [战吼—无畏] promotion",
+              【减血不减攻】		
+		——
+		"[+1 Food] [in all cities]",
+		"[+1 Food] from every [Bonus resource]",
+		——
+		"[-1 Food] per [3] population [in this city]",
+		"[+1 Production] per [2] population [in this city]",
+		"[+2 Gold] per [3] population [in this city]",
+		——
+		],
+		"outerColor": [70,35,35],
+		"innerColor": [230,0,0],
+		"cities": [
+		"战歌大厅",
+		"黑石竞技场",
+		"黑石堡",
+		"熔岩堡",
+		"巨魔氏族",
+		"飞斧氏族",
+		"铁手氏族",
+		"狂暴氏族"
+		],
+	       },
+	       
+	       {
+	       //nations
+		"name": "天赐圣人王朝",
+		"leaderName": "萝莉女帝天空",
+		"adjective": ["王朝"],
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "从水下第一个生命的萌芽开始到石器时代的巨形野兽您已经历许多。强大的王朝之王将会带领王朝走向辉煌开创伟大的黄金时代。",
+              "startIntroPart2": "",		
+		"declaringWar": "王师的铁蹄定会踏平四方",
+		"attacked": "王师必定征服",
+		"defeated": "王朝天数已尽？",
+		"introduction": "你好，我是天赐圣人王朝王朝的王",		
+		"neutralHello": "很高兴你又来了",
+		"neutralLetsHearIt": "我觉得不错，你说呢",
+		"neutralNo": "想都别想，这次谈不成",
+		"neutralYes": "这次一定谈成",
+		"hateHello": "尔等蝼蚁也想和谈吗",
+		"hateLetsHearIt": "不可能",
+		"hateNo": "想都别想",
+		"hateYes": "和气生财",		
+		"afterPeace": "好吧，这不错",
+		"tradeRequest":"这次交易不错",
+		"outerColor": [255,0,0],
+		"innerColor": [255,215,0],
+		"uniqueName":"王朝之威",
+		"uniques": [
+		"[All] units gain the [一阶防御强化] promotion",
+		【20%防御力】
+		——
+		"[+50]% Culture cost of adopting new Policies",
+		"[+50]% Culture cost of natural border growth [in all cities]",     
+		"[-75]% Gold cost of acquiring tiles [in all cities]",
+		——
+              "[+25]% [Culture] [in all cities]",		
+		"[+2 Culture] [in all cities]",
+		"[+2 Culture] from every [Luxury resource]",
+		——
+		"May buy [Military] units with [Culture] for [4] times their normal Production cost",
+              "May buy [圣人] units with [Culture] for [2] times their normal Production cost",
+              【开启黄金时代】		
+		——
+		"[+100]% Golden Age length",
+		"[+20]% Strength <for [All] units> <during a Golden Age>",
+		——
+		],
+		"cities": ["帝都",
+		"兴武城",
+		"兴文城",
+		"昌武城",
+		"昌文城",
+		"兴盛城",
+		"昌盛城",
+		"武运城",
+		"文运城",
+		"德运城",
+		"德昌城",
+		"武德城",]
+              },
+              
+   		{
+		//国家
+		"name": "黄金矮人王国",//国家名字
+		"leaderName": "超级狠人",//领导人名
+		"adjective": ["矮人族"],//国家形容词
+		"startBias": ["[Hill]","[Mountain]"],//初始地形
+		"preferredVictoryType": "Domination",//推荐胜利方式
+		"startIntroPart1": "群山之间的巨大城市，是黄金矮人王国的栖息地。周边的山脉使得季风很少光顾这里，但是贫瘠的土地无法阻碍骄傲的矮人们。虽然仅有几块平原能够种植作物，大大限制了矮人们的人口规模。但是从他们出生那刻就被赋予的锻造天赋，才是矮人们安身立命的根本。对于血气方刚，喜好勇武、锻造和美酒的矮人一族来说，这里无疑是他们的天堂。大量的矿藏埋在山脉与丘陵之中，供他们开采利用，多年来掌握的开采技术，使得他们能够更好的利用矿物。荒原和丘陵的环境，尽管恶劣，却也锤炼了黄金矮人王国们的意志，对于恶劣环境的抗争刻在了每一个矮人的骨子里。",//开局介绍第一段
+		"startIntroPart2": "尽管人口受限，但是矮人们的强大科技还是使得他们成为了世界上最强的几个国家之一，能够运载军队的攻城器械，更高效的矿井，初具工业化规模的城市，强大的战士和精良的装备，就是矮人们实力的体现。但与之对应的问题却也同样严重，伴随着世界科技的进步，整体还偏向于个人锻造的手工业，在世界市场上竞争力已经越来越低，仅靠矮人们自己生产的物品和粮食，已经很难满足整个国家的需要。而由于对荒原大量的开发，脆弱的环境再也经不起矿场规模的扩大，生产力也在此停滞不前。向北，是不断扩张的兽人；向南，是实力同样强劲的神圣骑士帝国。表面辉煌强盛的景象下，实则如履薄冰",//开局介绍第二段，不需要的可删除第二段，或者继续添加第三段
+		"startIntroPart3":"而您，黄金矮人王国的王！又会将矮人一族带向何方？",
+
+//以下都是此国家作为人机时说的话
+		"declaringWar": "矮人的尊严不容冒犯,准备迎接矮人的怒火吧",//向玩家宣战时
+		"attacked": "您对我们的力量一无所知",//被玩家宣战时
+		"defeated": "一时的胜负并不能决定一切，愿您善待我的人民和这片土地",//被玩家打败时
+		"introduction": "我们矮人最喜欢朋友和美酒！干一杯！",//遇到玩家时的问候
+
+		"neutralHello": "欢迎，我的朋友，这次带酒了吗？",//中立的时候，找他贸易，他说的话
+		"hateHello": "你的所作所为，我们不会忘记！",//战争时找他贸易
+
+		"tradeRequest": "我相信这对我们有利。",//向玩家发起贸易请求说的话
+
+		"outerColor": [255,255,0],//主颜色
+		"innerColor": [0,0,0],//字颜色
+		"favoredReligion": "Islam",
+		"uniqueName": "山丘血脉",//国家特性名
+		"uniques": [
+		"Starts with [Mining]",
+		——
+              "[All] units gain the [丘陵行者] promotion",
+		【丘陵双倍移动力】		
+              ——
+		"[+10]% [Production] [in all cities]",
+		——
+		"[+1 Production] from every [Strategic resource]",
+		"[+1 Food] from every [Hill]",
+		"[+1 Gold] from every [Mine]",
+		——
+		],//国家特性
+		"cities": ["地火圣城","山城","即墨城","灯塔镇","望海城","阳城","锦西城","前哨站"],
+              },
+              
+              {
+		//nations
+		"name": "亡灵死歌书院",
+		"leaderName": "大贤者九尾",
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "介绍.",
+		"startIntroPart2": "介绍",
+		"declaringWar": "宣战",
+		"attacked": "攻击",
+		"defeated": "死亡",
+		"introduction": "介绍",
+		"neutralHello": "问候",
+		"hateHello": "问候",
+		"tradeRequest":"贸易请求",
+		"outerColor": [220,220,220],
+		"innerColor": [0,0,0],
+		"cities": ["城市1","城市2",],              
+		"uniques": [
+		"[+2 Science] [in all cities]",
+		"[+2 Culture] [in all cities]",
+		"[+2 Gold] [in all cities]",
+		——
+		"[All] units gain the [黑暗魔法] promotion",
+		【打死单位变成自己的】
+		"[All] units gain the [灵魂魔法] promotion",
+		【击杀单位获得资源 】
+		"[All] units gain the [战术—冲锋] promotion",
+		【+30%攻击力-20%防御力】
+	       "When defeating a [All] unit, earn [0] Gold and recruit it",
+		——
+		],
+	       },
+	       	
+              {
+              //nations
+              "name": "爬行联合帝国",
+		"leaderName": "龙人网络卡",
+              "adjective": ["爬行生物"],
+		"preferredVictoryType": "Domination",  
+		"startIntroPart1": "在强大的爬行联合帝国建立之前我们爬行生物还只是几个部落那时我们互相争斗自相残杀因此常常受到讨厌的恒温生物的劫掠、奴役、屠杀。甚至被赶出了世世代代居住的家园但在伟大君主惘珞佧的领导下我们统一建立了爬行联合帝国
+        我们爬行生物从来没有像现在这样团结过。我们一定会给那些恒温生物一个惨痛的教训并且夺回我们的家园。",
+		"startIntroPart2": "他们或许认为我们是低等动物但我们会证明爬行生物比恒温生物强大的多",
+              "startBias": ["Desert","Marsh"],
+		"declaringWar": "你们惹怒了爬行生物做好被吞食的准备吧",
+		"attacked": "这是你们自找的",
+		"defeated": "这次是你们赢了恒温生物",
+		"introduction": "你好恒温生物我们是爬行生物",
+		"neutralHello": "你好我的恒温朋友",
+		"hateHello": "别想从我们这里拿到任何东西",
+		"tradeRequest":"让我们做个交易吧",
+		"outerColor": [125,125,0],
+		"innerColor": [190,140,35],
+		"cities": [
+		"爬行之巢",
+		"火焰大地",
+		"太阳市",
+		"蜥爪城",
+		"热风堡",
+		"鳄鱼池",
+		"森林舞会",
+		"日光岩"
+		],
+              "uniqueName": "变温之血",
+              "uniques": [
+              "[All] units gain the [一阶回复魔法] promotion",
+              【+10回血】
+              "[All] units gain the [Amphibious] promotion",
+              【消除河流影响】
+              ——
+              "[+1 Happiness] [in all cities]"
+              ——
+              "[+1 Production] from every [Deer]",
+              ——
+              "[+1 Production, +1 Food] from every [Marsh]",
+              "[+1 Production] from every [Desert]",
+              ——
+              ],
+              },
+                           
+	       {
+		//nations
+		"name": "混沌鼠人帝国",
+		"leaderName": "帝皇？黄金之神？混沌之主？元首？",
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "诞生于背叛。您早已意识到强大才是一切，万年的吸收融化你，让你掌握了大量的知识。现在时机已至，是对罪人审判的时刻。",
+		"startIntroPart2": "让我们征服这个世界。",
+
+		"declaringWar": "子弹已经上膛，利剑已经出鞘，让银河燃烧吧！",
+		"attacked": "哦，我希望你喜欢京关",
+		"defeated": "我等着你。",
+		"introduction": "你好",
+
+		"neutralHello": "你好",
+		"hateHello": "你好",
+
+     	       "tradeRequest":"这是一个贸易请求",
+    	       "uniqueName": "13声钟响",
+              "uniques": [
+              "[All] units gain the [瘟疫] promotion",
+              【对战受伤单位加20%攻击力】
+              "[All] units gain the [恐虐赐福] promotion",
+              【杀死单位获得信仰】
+              "[All] units gain the [战术—渗透] promotion",
+              【可以在任何时候进入敌方地块儿】
+              ——
+              "[-25]% tile improvement construction time",
+              "[-25]% Unhappiness from [Population] [in all cities]",
+              "[-25]% Culture cost of natural border growth [in all cities]",
+              ——
+              "[+1 Production, +1 Food] from every [Luxury resource]"
+              ——
+              "When conquering an encampment, earn [50] Gold and recruit a Barbarian unit <with [100]% chance>",
+              ——
+              "May buy [{Military}] units with [Faith] for [4] times their normal Production cost",
+              ——
+              "Land units may cross [Mountain] tiles after the first [Great General] is earned",
+              ——
+              ],
+		"outerColor": [255,0,0],
+		"innerColor": [0,0,0],
+		"cities": ["废鼠魔都","恐惧之眼","泰拉","大裂隙","卢修斯","卡迪亚","阿吉米多顿","克里","阿萨姆尼亚","北方堡","湄南河","大麦郡","武备城","武陵郡","波斯尼亚","富勒烯尼亚","南方郡","东方郡","西方郡","北方郡"],
+	       },  
+
+		{
+		"name": "精灵-树人",
+		"leaderName":"Shadow",
+	       "startBias": ["Forest"],
+		"preferredVictoryType": "Domination",	      
+		"startIntroPart1":"你好，Shadow你已经领导树人存活好几个世纪了，无论是帝国王朝还是亡灵都无法让你毁灭。",
+	       "startIntroPart2": "shadow，你的人民希望你能带领他们永存于世。",
+              "declaringWar": "I have just received a report that large numbers of my troops have crossed your borders.",
+		"attacked": "My attempts to avoid violence have failed. An eye for an eye only makes the world blind.",
+		"defeated": "You can chain me, you can torture me, you can even destroy this body, but you will never imprison my mind.",
+		"introduction": "Hello, I am shadow.",
+		"neutralHello": "I wish you peace.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "My friend, are you interested in this arrangem？",
+	       "outerColor": [16,126,5],
+		"innerColor": [255,153,51],
+	       "favoredReligion": "Hinduism",
+              "uniqueName": "世界树的庇护",
+              "uniques":[              
+              "[All] units gain the [林中行者] promotion",
+              【丛林森林双倍移动力】
+              ——
+              "[-25]% Unhappiness from [Population] [in all cities]",
+              ——
+              "[+15]% Strength <when fighting units from a Civilization with more Cities than you>",
+              ——
+              "[+1 Production] per [3] population [in this city]",
+              "[+1 Food] per [3] population [in this city]",
+              "[+1 Gold] per [3] population [in this city]",
+              "[+1 Culture] per [3] population [in this city]",
+              "[+1 Faith] per [3] population [in this city]",              
+              "[+1 Science] per [3] population [in this city]",
+              ——
+              "[+2 Science] [in all cities] <with [1] to [3] neighboring [Forest] tiles>",
+              "[+4 Science] [in all cities] <with [4] to [6] neighboring [Forest] tiles>",
+              ——
+              ],
+              "cities":["古树之根","萌生之芽","新生之叶","枯萎之花"],
+              },   
+
+              {
+		"name": "精灵合众王国",
+              "startBias": ["Forest"],
+		"leaderName": "精灵王遮目",
+		"adjective": ["至尊精灵"],
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "精灵啊，这世界好似配不上你们，周围充满了利益仇恨，这世界已人性扭曲，余人们的战争已经波及到我们，现在拿起弓箭，用主神恩赐的神箭让世间重新认识一下精灵吧！",		
+		"declaringWar": "精灵这次不会手下留情",
+		"attacked": "你必定会我们踏破",
+		"defeated": "我们会输吗？",
+		"introduction": "你好，精灵欢迎友好的使者",		
+		"neutralHello": "你好，我的朋友",
+		"neutralLetsHearIt": "我觉得不错，朋友",
+		"neutralNo": "这对我们可不算个好交易",
+		"neutralYes": "这次一定谈成",
+		"hateHello": "惹怒我们也想和谈吗",
+		"hateLetsHearIt": "离开吧",
+		"hateNo": "不可能",
+		"hateYes": "合作共赢",		
+		"afterPeace": "好吧，这不错",
+		"tradeRequest":"这次交易不错"
+		"outerColor": [60,180,110],
+		"innerColor": [200,215,0],
+		"uniqueName":"森林之子",
+		"uniques": [
+		"[All] units gain the [强化—树木] promotion",
+		【在丛林森林上加20%战斗力】
+		"[All] units gain the [林中行者] promotion",
+		【丛林森林双倍移动力】
+		——
+	       "[+1 Food, +1 Gold] from every [Forest]",
+	       "[+1 Production, +1 Gold] from every [Jungle]",
+	       ——
+	       ],
+		"cities": ["生命圣树",
+		"斜襟城",
+		"沈玲城",
+		"启明城",
+		"贰佰城",
+		"吉尔城",
+		"雄蕊城",
+		"马可城",
+		"须弥城",],
+              }, {
+		"name": "瓦尔拉",
+		"leaderName": "沃德斯特",
+		"adjective": ["瓦尔拉的"],
+		"startBias": ["Forest","Jungle"],
+		"preferredVictoryType": "Scientific",
+
+		"startIntroPart1": "噢！伟大的领袖！瓦尔拉族的圣人！沃德斯特，祝信德尔永远保佑您。您带领着瓦尔拉族在静寂之森中生活了上万年，直到那些拿着铁器的异族人来到了森林。但瓦尔拉人从不言败，你们打败了侵略者，打败了使用魔法的术师，打败了哪些愚笨的哥布林。当族群危机时，是您主动变革，在不破坏瓦尔拉传统的情况下为它注入了活力！",
+		"startIntroPart2": "伟大的领袖！瓦尔拉的半神，瓦尔拉人民相信您！您能够带领他们走向光明吗？您能建立一个经久不衰的文明吗？",
+		"declaringWar": "我本来不想动武的，我的朋友，但你所做的事都太卑略了",
+		"attacked": "你所做的事，我并不能理解，但瓦尔拉会抗争到底",
+		"defeated": "我输了，但瓦尔拉没有输，他们会斗争到底，你会被所有人诅咒的",
+		"introduction": "你好，这里是瓦尔拉的领地，我是沃德斯特，你可以叫我亚德，尽管我并不喜欢这个名字",
+		"neutralHello": "你好，欢迎来到瓦尔拉的领地！伟大的领袖",
+		"hateHello": "瓦尔拉并不欢迎你，这里的所有人都讨厌你和你的族人，现在，滚开！",
+		"tradeRequest": "瓦尔拉人向来向往和平，来！让我们做个交易",
+		"outerColor": [34,139,34],
+		"innerColor": [255,255,255],
+		"uniqueName": "瓦尔拉传统",
+		"uniques": ["[+2 Culture] from every [Forest]","[+2 Science] from every [Jungle]","[+2 Faith] from every [Forest]","[+2 Faith] from every [Jungle]"],
+		"cities": ["卡尔","尔拉","拉特兰","兰特瑞","瑞利","利特","特梅尔","尔克","克拉特乐斯","嘶特拉姆","姆巴佩","佩德","德特立"]
+	},
+	//Spectator
+	{
+		"name": "Spectator",
+		"outerColor": [255,255,255]
+		"innerColor": [255,255,255]
+       },
+       
+	//Barbarian
+	{
+		"name": "Barbarians",
+		"outerColor": [0,0,0],
+		"innerColor": [182,0,0],
+		"uniques": ["Can only heal by pillaging"]
+	}
+
+]

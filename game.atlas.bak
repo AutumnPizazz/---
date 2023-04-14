@@ -1,0 +1,1186 @@
+      
+旗帜-战歌兽人部落.png
+size: 100,100
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+NationIcons/战歌兽人部落
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+
+旗帜-亡灵死歌书院.png
+size: 270, 270
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+NationIcons/亡灵死歌书院
+  rotate: false
+  xy: 0, 0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1      
+  
+领袖-天狐凶恶傲娇小萝莉闪电和大贤者九尾.png
+size: 1080,810
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+LeaderIcons/天狐凶恶傲娇小萝莉闪电
+  rotate: false
+  xy: 0, 0
+  size: 530,810
+  orig: 530,810
+  offset: 0, 0
+  index: -1  
+LeaderIcons/大贤者九尾
+  rotate: false
+  xy: 530, 0
+  size: 550,810
+  orig: 550,810
+  offset: 0, 0
+  index: -1
+  
+旗帜-神圣骑士帝国.png
+size: 100,100
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+NationIcons/神圣骑士帝国
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+
+领袖-骑士王莱娜酱.png
+size: 820,828
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+LeaderIcons/骑士王莱娜酱
+  rotate: false
+  xy: 0, 0
+  size: 828, 828
+  orig: 828, 828
+  offset: 0, 0
+  index: -1   
+   
+旗帜-天赐圣人王朝.png
+size: 400,400
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+NationIcons/天赐圣人王朝
+  rotate: false
+  xy: 0, 0
+  size: 400,400
+  orig: 400,400
+  offset: 0, 0
+  index: -1  
+  
+领袖-萝莉女帝天空.png
+size: 1080,1080
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+LeaderIcons/萝莉女帝天空
+  rotate: false
+  xy: 0, 0
+  size: 1080,1080
+  orig: 1080,1080
+  offset: 0, 0
+  index: -1
+
+旗帜-黄金矮人王国.png
+size: 270,270
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+NationIcons/黄金矮人王国
+  rotate: false
+  xy: 0, 0
+  size: 270,270
+  orig: 270,270
+  offset: 0, 0
+  index: -1  
+  
+旗帜-爬行联合帝国.png
+size: 100,100
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+NationIcons/爬行联合帝国
+  rotate: false
+  xy: 6, 6
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+                
+领袖-龙人网络卡.png
+size: 710,710
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+LeaderIcons/龙人网络卡
+  rotate: false
+  xy: 0, 0
+  size: 710,710
+  orig: 710,710
+  offset: 0, 0
+  index: -1
+    
+旗帜-混沌鼠人帝国.png
+size: 200,200
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+NationIcons/混沌鼠人帝国
+  rotate: false
+  xy: 0, 0
+  size: 200, 200
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+
+领袖-帝皇黄金之神混沌之主元首.png
+size: 1381,1841
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+LeaderIcons/帝皇？黄金之神？混沌之主？元首？
+  rotate: false
+  xy: 0, 0
+  size: 1381,1841
+  orig: 1381,1841
+  offset: 0, 0
+  index: -1
+
+旗帜-精灵合众王国.png
+size: 100,100
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+NationIcons/精灵合众王国
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1    
+  
+旗帜-精灵-树人.png
+size: 100,100
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+NationIcons/精灵-树人
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1   
+     
+英雄-埃米尔.png
+size: 500,700
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+UnitIcons/鳄鱼王子—埃米尔
+  rotate: false
+  xy: 0, 0
+  size: 500,700
+  orig: 500,700
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/鳄鱼王子—埃米尔
+  rotate: false
+  xy: 0, 0
+  size: 500,700
+  orig: 500,700
+  offset: 0, 0
+  index: -1  
+
+
+英雄-喵喵.png
+size: 550,550
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+UnitIcons/宫廷御猫—喵喵
+  rotate: false
+  xy: 0, 0
+  size: 550,550
+  orig: 550,550
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/宫廷御猫—喵喵
+  rotate: false
+  xy: 0, 0
+  size: 550,550
+  orig: 550,550
+  offset: 0, 0
+  index: -1  
+  
+图标-帝国1.png
+size: 700,100
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none  
+UnitIcons/骑射先锋
+  rotate: false
+  xy: 0, 0
+  size: 100,100
+  orig: 100,100
+  offset: 0, 0
+  index: -1
+UnitIcons/亲卫骑射
+  rotate: false
+  xy: 100, 0
+  size: 100,100
+  orig: 100,100
+  offset: 0, 0
+  index: -1
+UnitIcons/神圣骑射
+  rotate: false
+  xy: 200, 0
+  size: 100,100
+  orig: 100,100
+  offset: 0, 0
+  index: -1
+UnitIcons/先锋骑兵
+  rotate: false
+  xy: 300, 0
+  size: 100,100
+  orig: 100,100
+  offset: 0, 0
+  index: -1
+UnitIcons/亲卫骑士
+  rotate: false
+  xy: 400, 0
+  size: 100,100
+  orig: 100,100
+  offset: 0, 0
+  index: -1
+UnitIcons/黑暗骑士
+  rotate: false
+  xy: 500, 0
+  size: 100,100
+  orig: 100,100
+  offset: 0, 0
+  index: -1
+     
+图标-帝国2.png
+size: 105,105
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+UnitIcons/帝国枪骑手
+  rotate: false
+  xy: 0, 0
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+UnitIcons/帝国长枪骑手
+  rotate: false
+  xy: 20, 0
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+UnitIcons/帝国轻甲骑兵
+  rotate: false
+  xy: 40, 0
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+UnitIcons/帝国重甲骑兵
+  rotate: false
+  xy: 60, 0
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1 
+UnitIcons/教士
+  rotate: false
+  xy: 0, 20
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+UnitIcons/圣人
+  rotate: false
+  xy: 0, 20
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+UnitIcons/学士
+  rotate: false
+  xy: 0, 20
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1  
+UnitIcons/游击先锋
+  rotate: false
+  xy: 0, 60
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+UnitIcons/阵列射手
+  rotate: false
+  xy: 20, 60
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+UnitIcons/侦察骑士
+  rotate: false
+  xy: 0, 40
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1  
+UnitIcons/游侠
+  rotate: false
+  xy: 40, 60
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+UnitIcons/圣殿骑士
+  rotate: false
+  xy: 60, 60
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+  
+立绘-圣殿骑士.png
+size: 600,750
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Units/圣殿骑士
+  rotate: false
+  xy: 0, 0
+  size: 600,750
+  orig: 600,750
+  offset: 0, 0
+  index: -1    
+      
+图标-兽人.png
+size: 90,90
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+UnitIcons/巨魔投矛手
+  rotate: false
+  xy: 0, 0
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+UnitIcons/巨魔锐矛投手
+  rotate: false
+  xy: 30, 0
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+UnitIcons/巨魔长矛投手
+  rotate: false
+  xy: 60, 0
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+UnitIcons/兽人投斧手
+  rotate: false
+  xy: 0, 30
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+UnitIcons/兽人锐斧投手
+  rotate: false
+  xy: 30, 30
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+UnitIcons/兽人利斧投手
+  rotate: false
+  xy: 60, 30
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1  
+BuildingIcons/晾肉仓库
+  rotate: false
+  xy: 0, 60
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+BuildingIcons/兽廊
+  rotate: false
+  xy: 30, 60
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1    
+   
+兽人斧战士.png
+size: 200,300
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+UnitIcons/兽人斧战士
+  rotate: false
+  xy: 0, 0
+  size: 200, 300
+  orig: 200, 300
+  offset: 0, 0
+  index: -1
+  
+兽人锐斧战士.png
+size: 200,300
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+UnitIcons/兽人锐斧战士
+  rotate: false
+  xy: 0, 0
+  size: 210, 280
+  orig: 210, 280
+  offset: 0, 0
+  index: -1
+
+兽人利斧战士.png
+size: 230,277
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+UnitIcons/兽人利斧战士
+  rotate: false
+  xy: 0, 0
+  size: 238, 277
+  orig: 230, 277
+  offset: 0, 0
+  index: -1
+     
+兽人狂暴战士.png
+size: 155,130
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+UnitIcons/兽人狂暴战士
+  rotate: false
+  xy: 0, 0
+  size: 155, 130
+  orig: 155, 130
+  offset: 0, 0
+  index: -1
+  
+兽人野猪骑手.png
+size: 170,150
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+UnitIcons/兽人野猪骑手
+  rotate: false
+  xy: 0, 0
+  size: 170, 150
+  orig: 170, 150
+  offset: 0, 0
+  index: -1
+
+兽人野猪骑兵.png
+size: 180,200
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+UnitIcons/兽人野猪骑兵
+  rotate: false
+  xy: 0, 0
+  size: 180, 200
+  orig: 180, 200
+  offset: 0, 0
+  index: -1
+    
+立绘-兽人.png
+size: 100,300
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Units/兽人斧战士
+  rotate: false
+  xy: 0, 0
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/兽人锐斧战士
+  rotate: false
+  xy: 25, 0
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1     
+TileSets/FantasyHex/Units/兽人利斧战士
+  rotate: false
+  xy: 50, 0
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/兽人投斧手
+  rotate: false
+  xy: 0, 25
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/兽人锐斧投手
+  rotate: false
+  xy: 25, 25
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1     
+TileSets/FantasyHex/Units/兽人利斧投手
+  rotate: false
+  xy: 50, 25
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1 
+TileSets/FantasyHex/Units/巨魔投矛手
+  rotate: false
+  xy: 0, 50
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/巨魔锐矛投手
+  rotate: false
+  xy: 25, 50
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1     
+TileSets/FantasyHex/Units/巨魔利矛投手
+  rotate: false
+  xy: 50, 50
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1  
+TileSets/FantasyHex/Units/兽人野猪骑手
+  rotate: false
+  xy: 0, 75
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/兽人野猪骑兵
+  rotate: false
+  xy: 25, 75
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+
+图标-爬行.png
+size: 128,128
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+UnitIcons/鳄人勇士
+  rotate: false
+  xy: 0, 64
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+UnitIcons/鳄人剑盾兵
+  rotate: false
+  xy: 32, 64
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+UnitIcons/鳄人剑盾卫士
+  rotate: false
+  xy: 64, 64
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+UnitIcons/蜥蜴人侦察兵
+  rotate: false
+  xy: 96, 64
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+UnitIcons/蜥蜴人矛手
+  rotate: false
+  xy: 0, 0
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+UnitIcons/蜥蜴人长矛兵
+  rotate: false
+  xy: 32, 0
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+UnitIcons/变色龙短弓手
+  rotate: false
+  xy: 64, 0
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+UnitIcons/变色龙长弓手
+  rotate: false
+  xy: 96, 0
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+UnitIcons/变色龙劲弩手
+  rotate: false
+  xy: 0, 96
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+UnitIcons/蜥蜴人投手
+  rotate: false
+  xy: 5, 32
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+UnitIcons/蜥蜴人精锐投手
+  rotate: false
+  xy: 37, 32
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+UnitIcons/蜥蜴人骑兵
+  rotate: false
+  xy: 64, 32
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+UnitIcons/蜥蜴人荣誉骑兵
+  rotate: false
+  xy: 96, 32
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+UnitIcons/爬行军团
+  rotate: false
+  xy: 32, 96
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1  
+
+立绘-矮人.png
+size: 120,120
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Units/三弓床弩
+  rotate: false
+  xy: 0, 0
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1  
+TileSets/FantasyHex/Units/射石炮
+  rotate: false
+  xy: 30, 0
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/矮人哨兵
+  rotate: false
+  xy: 0, 30
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+
+立绘-爬行.png
+size: 140,200
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Units/鳄人勇士
+  rotate: false
+  xy: 0, 0
+  size: 36, 34
+  orig: 36, 34
+  offset: 0, 0
+  index: -1  
+TileSets/FantasyHex/Units/鳄人剑盾兵
+  rotate: false
+  xy: 35, 0
+  size: 36, 34
+  orig: 36, 34
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/鳄人剑盾卫士
+  rotate: false
+  xy: 70, 0
+  size: 36, 34
+  orig: 36, 34
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/蜥蜴人侦察兵
+  rotate: false
+  xy: 100, 0
+  size: 36, 34
+  orig: 36, 34
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/蜥蜴人矛手
+  rotate: false
+  xy: 0, 34
+  size: 36, 34
+  orig: 36, 34
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/蜥蜴人长矛兵
+  rotate: false
+  xy: 35, 34
+  size: 36, 34
+  orig: 36, 34
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/爬行军团
+  rotate: false
+  xy: 70, 34
+  size: 36, 34
+  orig: 36, 34
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/变色龙短弓手
+  rotate: false
+  xy: 100, 34
+  size: 36, 34
+  orig: 36, 34
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/变色龙长弓手
+  rotate: false
+  xy: 0, 68
+  size: 36, 34
+  orig: 36, 34
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/变色龙劲弩手
+  rotate: false
+  xy: 35, 68
+  size: 36, 34
+  orig: 36, 34
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/蜥蜴人骑兵
+  rotate: false
+  xy: 0, 102
+  size: 36, 34
+  orig: 36, 34
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/蜥蜴人投手
+  rotate: false
+  xy: 45, 102
+  size: 36, 34
+  orig: 36, 34
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/蜥蜴人荣誉骑兵
+  rotate: false
+  xy: 0, 136
+  size: 36, 34
+  orig: 36, 34
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/蜥蜴人精锐投手
+  rotate: false
+  xy: 45, 136
+  size: 36, 34
+  orig: 36, 34
+  offset: 0, 0
+  index: -1
+
+混沌-奴隶.png
+size: 128,128
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+UnitIcons/奴隶
+  rotate: false
+  xy: 0, 0
+  size: 128, 128
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ 
+混沌-部落武士.png
+size: 128,128
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+UnitIcons/部落武士
+  rotate: false
+  xy: 0, 0
+  size: 128, 128
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+
+混沌-山地骑兵.png
+size: 128,128
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+UnitIcons/山地骑手
+  rotate: false
+  xy: 0, 0
+  size: 128, 128
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+
+混沌-传令兵.png
+size: 64,64
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+UnitIcons/传令兵
+  rotate: false
+  xy: 0, 0
+  size: 64, 64
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+
+混沌-阿萨姆披甲长枪军.png
+size: 128,128
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+UnitIcons/阿萨姆披甲长枪军
+  rotate: false
+  xy: 0, 0
+  size: 128, 128
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+
+混沌-重装斧手.png
+size: 500,500
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+UnitIcons/重装斧手
+  rotate: false
+  xy: 0, 0
+  size: 128, 128
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+  
+混沌-半自动弩手.png
+size: 128,128
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+UnitIcons/半自动弩手
+  rotate: false
+  xy: 0, 0
+  size: 128, 128
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+    
+混沌-游牧骑兵.png
+size: 220,220
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+UnitIcons/游牧骑兵
+  rotate: false
+  xy: 0, 0
+  size: 220,220
+  orig: 220,220
+  offset: 0, 0
+  index: -1
+  
+混沌-混沌鼠人骑士团.png
+size: 128,128
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+UnitIcons/混沌鼠人骑士团
+  rotate: false
+  xy: 0, 0
+  size: 128, 128
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+    
+混沌-鼠狼.png
+size: 128,128
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+UnitIcons/鼠狼
+  rotate: false
+  xy: 0, 0
+  size: 128, 128
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+    
+混沌-废鼠投石机.png
+size: 128,128
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+UnitIcons/废鼠投石机
+  rotate: false
+  xy: 0, 0
+  size: 128, 128
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+    
+地块资源.png
+size: 140,200
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+ResourceIcons/秘银矿
+  rotate: false
+  xy: 1, 1
+  size: 9, 10
+  orig: 9, 10
+  offset: 0, 0
+  index: -1
+ResourceIcons/精金矿
+  rotate: false
+  xy: 11, 1
+  size: 9, 10
+  orig: 9, 10
+  offset: 0, 0
+  index: -1
+ResourceIcons/魔石
+  rotate: false
+  xy: 21, 1
+  size: 9, 10
+  orig: 9, 10
+  offset: 0, 0
+  index: -1 
+ResourceIcons/纸张
+  rotate: false
+  xy: 1, 12
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+
+瓦尔拉.png
+size: 100, 100
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+NationIcons/瓦尔拉
+  rotate: false
+  xy: 1,1
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+  
+沃德斯特.png
+size: 448, 596
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+LeaderIcons/沃德斯特
+  rotate: false
+  xy: 1,1
+  size: 448, 596
+  orig: 448, 596
+  offset: 0, 0
+  index: -1
+  
+瓦尔拉弓箭手.png
+size: 100, 100
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+UnitIcons/瓦尔拉弓箭手
+  rotate: false
+  xy: 1,1
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+  
+瓦尔拉硬弓手.png
+size: 100, 100
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+UnitIcons/瓦尔拉硬弓手
+  rotate: false
+  xy: 1,1
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+  
+瓦尔拉弩.png
+size: 100, 100
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+UnitIcons/瓦尔拉弩
+  rotate: false
+  xy: 1,1
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+  
+半人马战士.png
+size: 100, 100
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+UnitIcons/半人马战士
+  rotate: false
+  xy: 1,1
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+  
+瓦尔拉斥候.png
+size: 100, 100
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+UnitIcons/瓦尔拉斥候
+  rotate: false
+  xy: 1,1
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+  
+瓦尔拉战士.png
+size: 100, 100
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+UnitIcons/瓦尔拉战士
+  rotate: false
+  xy: 1,1
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+  
+半人马骑射手.png
+size: 100, 100
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+UnitIcons/半人马骑射手
+  rotate: false
+  xy: 1,1
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+  
+马格尔投掷手.png
+size: 100, 100
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+UnitIcons/马格尔投掷手
+  rotate: false
+  xy: 1,1
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+  
+
+马格尔攻城塔.png
+size: 128, 128
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+UnitIcons/马格尔攻城塔
+  rotate: false
+  xy: 1,1
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+  
+花树.png
+size: 100, 100
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+BuildingIcons/花树
+  rotate: false
+  xy: 1,1
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+  
+隐藏.png
+size: 50, 50
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+UnitPromotionIcons/隐藏
+  rotate: false
+  xy: 1,1
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1

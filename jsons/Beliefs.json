@@ -1,0 +1,32 @@
+[
+    {
+        "name": "科学之路",
+        "type": "Pantheon",
+        "uniques": ["[+1 Science] from each Trade Route"],
+    },
+    {
+        "name": "文艺之路",
+        "type": "Pantheon",
+        "uniques": ["[+2 Culture] from each Trade Route"],
+    },  
+    {
+        "name": "传教之路",
+        "type": "Pantheon",
+        "uniques": ["[+2 Faith] from each Trade Route"],
+    },
+    {
+        "name": "工业之路",
+        "type": "Pantheon",
+        "uniques": ["[+1 Production] from each Trade Route"],
+    },
+    {
+        "name": "农业之路",
+        "type": "Pantheon",
+        "uniques": ["[+1 Food] from each Trade Route"],
+    },  
+    {
+        "name": "商业之路",
+        "type": "Pantheon",
+        "uniques": ["[+4 Gold] from each Trade Route"],
+    },                                              
+]

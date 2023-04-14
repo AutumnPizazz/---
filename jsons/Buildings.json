@@ -1,0 +1,815 @@
+[
+	{
+		"name": "养马场",
+		"uniqueTo": "神圣骑士帝国",
+		"maintenance": 0,
+		"requiredTech": "Animal Husbandry",
+		"uniques": ["Unbuildable","Provides [2] [Horses]"],
+	},
+	{
+		"name": "礼拜堂",
+		"replaces": "Shrine",
+		"uniqueTo": "神圣骑士帝国",
+		"faith": 3,
+		"culture": 1,
+		"science": 1,		
+		"cost": 50,
+		"maintenance": 1,
+		"requiredTech": "Pottery",
+		"uniques": ["Hidden when religion is disabled"]
+	},
+	{
+		"name": "审判庭",
+		"replaces":"Courthouse",
+		"uniqueTo": "神圣骑士帝国",
+		"cost": 1,
+		"maintenance": 0,
+              "uniques":["Free [教士] appears","Can only be built [in annexed cities]"],
+              "requiredTech":"Archery",
+   	},
+ 	{
+		"name": "骑士军营",
+		"replaces":"Barracks",
+		"uniqueTo": "神圣骑士帝国",
+		"cost": 60,
+		"maintenance": 1,
+		"uniques": ["[+20]% Production when constructing [Mounted] units [in this city]","New [Military] units start with [20] Experience [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Archery"
+	},
+	{
+		"name": "大浴场",
+		"replaces":"Colosseum",
+		"uniqueTo": "神圣骑士帝国",
+		"happiness": 4,
+		"gold": 2,
+		"cost": 90,
+		"requiredTech": "Engineering"
+	},
+	{
+		"name": "晾肉仓库",
+		"replaces": "Granary",
+		"cost": 60,
+		"maintenance": 1,
+		"uniqueTo": "战歌兽人部落",
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Food] from [Strategic resource] tiles [in this city]"],
+		"requiredTech": "Pottery"
+	},
+	{
+		"name": "兽廊",
+		"replaces": "Stable",
+		"maintenance": 1,
+		"happiness": 1,
+		"production": 2,
+		"food": 2,
+		"cost": 75,
+		"uniqueTo": "战歌兽人部落",
+		"uniques": ["[+1 Production, +1 Food] from [Horses] tiles [in this city]",
+			"[+1 Production] from [Bonus resource] tiles [in this city]",
+			"Provides [2] [Horses]"],
+		"requiredTech": "Horseback Riding"
+	},
+       {
+              "name": "天人纪念馆",
+		"replaces": "Monument",
+		"uniqueTo": "天赐圣人王朝",
+		"culture": 4,
+		"cost": 40,
+		"maintenance": 1,
+	},
+	{
+		"name": "磨坊",
+		"replaces": "Granary",
+		"food": 3,
+		"cost": 60,
+		"maintenance": 1,
+		"uniqueTo": "天赐圣人王朝",
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Culture] from [耕地] tiles [in this city]"],
+		"requiredTech": "Pottery"
+	},	
+	{
+		"name": "机器工坊",//建筑名称
+		"replaces": "Workshop",//取代原版建筑
+		"uniqueTo": "黄金矮人王国",//属于哪个国家
+		"cost": 120,//建造花费
+		"science": 2,
+		"maintenance": 2,
+		"production": 3,
+		"specialistSlots": {"Engineer": 2},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"production": 20},
+		"requiredTech": "Metal Casting"
+	},	
+	{
+		"name": "地火锻造炉",
+		"replaces": "Mint",
+		"uniqueTo": "黄金矮人王国"
+		"maintenance": 1,
+		"happiness": 1,
+		"production": 2,
+		"food": 2,
+		"cost": 75,		
+		"requiredNearbyImprovedResources": ["Citrus","Cotton","Dyes","Incense","Silk","Spices","Sugar","Wine","Copper","Gems","Gold Ore","Silver","Salt","Ivory","Furs","Truffles"],
+		"uniques": [
+		"[+1 Production] from [Luxury resource] tiles [in this city]"],
+	},
+	{
+		"name": "简易航空港",
+		"uniqueTo": "黄金矮人王国",
+		"cost": 100,
+		"production": 2,
+		"percentStatBonus": {"production": 5},
+		"specialistSlots": {"Engineer": 1},
+		"maintenance": 2,
+		"uniques": ["[+10]% Production when constructing [Fighter] units [in this city]"]
+		"hurryCostModifier": 2,
+		"requiredTech": "Mining"
+	},	
+       {
+              "name": "魔力加温器",
+		"replaces": "Monument",
+		"uniqueTo": "爬行联合帝国",
+		"culture": 2,
+		"production": 1,
+		"cost": 40,
+		"maintenance": 1,
+	},
+       {
+		"name": "联合训练室",
+		"replaces":"Barracks",
+		"uniqueTo": "爬行联合帝国",
+		"cost": 60,
+		"happiness": 1,		
+		"maintenance": 1,
+		"uniques": ["[+10]% Production when constructing [Sword] units [in this city]","[+10]% Production when constructing [Archery] units [in this city]","New [Military] units start with [15] Experience [in this city]","Destroyed when the city is captured"],
+		"requiredTech": "Archery"
+	}, 
+       {
+              "name": "孵蛋室",
+		"replaces": "Colosseum",
+		"uniqueTo": "爬行联合帝国",
+		"happiness": 4,
+		"cost": 90,
+		"maintenance": 1,
+		"requiredTech": "Engineering",
+		"uniques": ["[20]% Food is carried over after population increases [in this city]"],
+	},
+       {
+              "name": "爬行研究室",   
+		"replaces": "University",
+              "uniqueTo": "爬行联合帝国",
+		"maintenance": 2,
+              "hurryCostModifier": 15,
+		"percentStatBonus": {"science": 33, "faith": 33, "culture": 33},
+		"requiredBuilding": "Library",
+		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]","[+1 Science] from [Marsh] tiles [in this city]","[+1 Science] from [Flood plains] tiles [in this city]"],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "宣传部",
+		"replaces": "Shrine",
+		"faith": 1,
+		"uniqueTo": "混沌鼠人帝国",
+		"cost": 50,
+		"maintenance": 1,
+		"requiredTech": "Pottery",
+		"uniques": ["[+1 Faith] per [2] population [in this city]"],
+	},
+	{
+		"name": "灵能节点",
+		"cost": 125,
+		"replaces":"National Epic",
+		"uniqueTo": "混沌鼠人帝国",
+		"isNationalWonder": true,		
+		"culture": 10,
+		"uniques": ["[+50]% Great Person generation [in this city]"],
+		"requiredTech": "Acoustics"
+	},
+ 	{
+		"name": "白色军营",
+		"replaces":"Barracks",
+		"uniqueTo": "混沌鼠人帝国",
+		"maintenance": 1,
+		"cost": 60,
+		"uniques": ["[All] units gain the [脚蹼] promotion","[+10]% Production when constructing [Military] units [in this city]","New [Military] units start with [15] Experience [in this city]"],
+		"requiredTech": "Archery"
+	},
+	{
+		"name": "大雕像",
+		"replaces": "Monument",
+		"uniqueTo": "混沌鼠人帝国",
+		"culture": 2,
+		"faith": 1,
+		"cost": 40,
+		"maintenance": 1,
+	},
+	{
+		"name": "地下养殖场",
+		"replaces":"Granary",
+		"uniqueTo": "混沌鼠人帝国",
+		"food": 3,
+		"maintenance": 2,
+		"cost": 60,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Production] per [2] population [in this city]"],
+		"requiredTech": "Pottery"
+	},
+       {
+		"name": "劳动营及集中营",
+		"replaces": "Workshop",
+		"uniqueTo": "混沌鼠人帝国",
+		"production": 3,
+		"fold": 2,
+		"maintenance": 2,
+		"specialistSlots": {"Engineer": 2},
+		"hurryCostModifier": 50,
+		"percentStatBonus": {"production": 20},
+		"requiredTech": "Metal Casting"
+	},
+	{
+		"name": "研究部",
+              "replaces": "Library",
+		"uniqueTo": "混沌鼠人帝国",
+		"cost": 60,
+		"science": 1,
+		"maintenance": 1,		
+		"uniques": ["[+2 Science] per [3] population [in this city]"],
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "国家银行",
+		"replaces": "Market",
+		"uniqueTo": "混沌鼠人帝国",
+		"cost": 60,				
+		"gold": 4,
+		"specialistSlots": {"Merchant": 2},
+		"requiredTech": "Pottery"
+	},	 
+       {
+		"name": "树人屋",
+		"replaces":"Granary",
+		"uniqueTo":"精灵-树人",
+		"food": 3,
+		"maintenance": 1,
+	       "cost": 60,
+		"uniques": ["[+1 Food] from [Forest] tiles [in this city]",
+		"[+1 Production] from [Forest] tiles [in this city]"],
+		"requiredTech": "Pottery",
+	}, 
+	{
+	       "name": "树人圣地",
+              "replaces": "Temple",
+	       "uniqueTo":"精灵-树人", 
+	       "requiredBuilding": "Shrine",
+	       "faith": 3,
+	       "science": 2,
+	       "maintenance": 2,              
+              "cost":60,
+	       "requiredTech": "Calendar",
+	},
+	{
+		"name": "世界树之花",
+		"replaces":"Colosseum",
+		"uniqueTo": "精灵-树人",
+		"maintenance": 1,
+		"happiness": 3,
+		"science": 2,
+		"cost": 90,
+		"hurryCostModifier": 25,
+		"requiredTech": "Engineering"
+	},
+       {
+		"name": "精灵粮仓",
+		"replaces": "Granary",
+		"food": 3,
+		"cost": 60,
+		"maintenance": 1,
+		"uniqueTo": "精灵合众王国",
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Food] from [Wheat] tiles [in this city]","[+1 Gold] from [德鲁伊之所] tiles [in this city]","[+1 Faith] from [神圣之森] tiles [in this city]"],
+		"requiredTech": "Pottery"
+	},
+       {
+		"name": "魔法森林",
+		"replaces": "Shrine",
+		"uniqueTo": "精灵合众王国",
+		"faith": 2,
+		"Food": 2,
+		"production": 1,
+		"science": 1,		
+		"cost": 50,
+		"maintenance": 1,
+		"requiredTech": "Pottery",
+		"uniques": ["[+1 Faith] from [德鲁伊之所] tiles [in this city]"],
+	},
+	{
+		"name": "自然之泉",
+		"replaces":"Colosseum",
+		"uniqueTo": "精灵合众王国",
+		"maintenance": 1,
+		"happiness": 3,
+		"gold": 2,
+		"cost": 90,
+		"requiredTech": "Engineering"
+		"uniques": ["New [Military] units start with [5] Experience [in this city]"],
+	},
+	{
+		"name": "灵能森林",
+		"replaces": "Workshop",
+		"uniqueTo": "精灵合众王国",
+		"cost": 120,
+		"maintenance": 2,
+		"production": 2,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Food] from [德鲁伊之所] tiles [in this city]"],
+		"requiredTech": "Metal Casting"
+	},
+	{
+		"name": "议会厅",
+		"replaces": "Monument",
+		"uniqueTo": "精灵合众王国",
+		"culture": 2,
+		"food": 1,
+		"cost": 40,
+		"maintenance": 1,
+	},
+	{
+		"name": "花树",
+		"hurryCostModifier": 25,
+		"cost":90,
+		"replaces": "Barracks",
+		"uniqueTo": "瓦尔拉",
+		"maintenance": 2,
+		"requiredTech": "Pottery"
+		"uniques": ["New [Military] units start with [15] Experience [in this city]","All newly-trained [Sword] units [in this city] receive the [隐藏] promotion",对相邻单位不可见 "Unbuildable","[5]% Food is carried over after population increases [in this city]"],
+	},		
+//初始建筑	
+       {
+		"name": "Palace",//宫殿
+		"isNationalWonder": true,
+		"production": 3,
+		"gold": 5,
+		"faith": 2,
+		"culture": 2,
+		"science": 3,
+		"cityStrength": 2,
+		"cost": 1,
+		"uniques": ["Provides [1] [英雄之证]","Indicates the capital city"]
+	},
+//战争
+       {
+		"name": "Courthouse",//法庭
+		"cost": 1,
+		"maintenance": 0,
+		"uniques": ["Remove extra unhappiness from annexed cities",
+			    "Can only be built [in annexed cities]"],
+		"requiredTech": "Archery"
+	},
+	{
+		"name": "Barracks",//军营
+		"cost": 60,
+		"maintenance": 1,
+		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Archery"
+	},
+	{
+		"name": "Armory",//军械所
+		"cost": 60,
+		"maintenance": 1,
+		"requiredBuilding": "Barracks",
+		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Steel"
+	},
+//特殊
+	{
+		"name": "交易物品（马）",
+		"production": 2,
+		"cost": 75,
+		"maintenance": 1,
+		"uniques": ["Provides [4] [Horses]","Consumes [1] [秘银矿]"],
+		"requiredTech": "Mining"
+	},
+	{
+		"name": "交易物品（铁）",
+		"production": 2,
+		"cost": 75,
+		"maintenance": 1,
+		"uniques": ["Provides [4] [Iron]","Consumes [1] [秘银矿]"],
+		"requiredTech": "Mining"
+	},
+	{
+		"name": "交易物品（金）",
+		"gold": 5,
+		"cost": 75,
+		"maintenance": 0,
+		"uniques": ["Consumes [1] [精金矿]"],
+		"requiredTech": "Mining"
+	},
+	{
+		"name": "田边小屋",
+		"requiredNearbyImprovedResources": ["Citrus","Cotton","Dyes","Incense","Silk","Spices","Sugar","Wine","Copper","Gems","Gold Ore","Silver","Salt","Ivory","Furs","Truffles"],
+		"maintenance": 1,
+		"happiness": 1,
+		"production": 1,
+		"food": 1,		
+		"maintenance": 1,
+		"cost": 75,		
+		"uniques": [
+		"[+1 Food] from [Luxury resource] tiles [in this city]"
+		],
+		"requiredTech": "Pottery"
+	},	
+	{
+		"name": "Stone Works",//石工坊
+		"requiredNearbyImprovedResources": ["Marble", "Stone","Iron"],
+		"maintenance": 1,
+		"happiness": 1,
+		"production": 1,
+		"food": 1,		
+		"maintenance": 1,
+		"cost": 75,		
+		"uniques": [
+		"[+1 Production] from [Stone] tiles [in this city]",
+		"[+1 Food] from [Marble] tiles [in this city]",
+		"[+1 Production, +1 Food] from [Iron] tiles [in this city]"],
+		"requiredTech": "Iron Working"
+	},
+	{
+		"name": "Mint",//铸币场
+		"maintenance": 1,
+		"happiness": 1,
+		"production": 1,
+		"food": 1,
+		"cost": 75,		
+		"requiredNearbyImprovedResources": ["Citrus","Cotton","Dyes","Incense","Silk","Spices","Sugar","Wine","Copper","Gems","Gold Ore","Silver","Salt","Ivory","Furs","Truffles"],
+		"uniques": [
+		"[+1 Production] from [Luxury resource] tiles [in this city]"],
+		"requiredTech": "Mining",		
+	},		
+	{
+		"name": "Forge",//锻造厂
+		"requiredNearbyImprovedResources": ["精金矿", "秘银矿"],
+		"maintenance": 1,		
+		"happiness": 1,
+		"production": 1,
+		"food": 1,
+		"cost": 75,
+		"uniques": [
+		"[+1 Production, +1 Food] from [秘银矿] tiles [in this city]",
+		"[+1 Production, +1 Food] from [精金矿] tiles [in this city]"],
+		"requiredTech": "Engineering"
+	},
+	{
+		"name": "Circus",//马戏场
+		"requiredNearbyImprovedResources": ["Horses","Deer"],
+		"maintenance": 1,		
+		"happiness": 1,
+		"production": 1,
+		"food": 1,
+		"cost": 75,
+		"uniques": [
+		"[+1 Production] from [Deer] tiles [in this city]",
+		"[+1 Food] from [Horses] tiles [in this city]"],
+		"requiredTech": "Bronze Working"
+	},
+	{
+		"name": "Stable",//马廊
+		"maintenance": 1,
+		"happiness": 1,
+		"production": 1,
+		"food": 1,		
+		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
+		"cost": 75,
+		"uniques": [
+		"[+1 Production] from [Cattle] tiles [in this city]",
+		"[+1 Production] from [Horses] tiles [in this city]",
+		"[+1 Food] from [Sheep] tiles [in this city]",
+		"Provides [2] [Horses]"],
+		"requiredTech": "Horseback Riding"
+	},	
+	{
+		"name": "University",//大学
+		"maintenance": 3,
+		"cost": 150,		
+		"percentStatBonus": {"science": 33, "faith": 50, "culture": 50},
+		"requiredBuilding": "Library",
+		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]"],
+		"requiredTech": "Education"
+	},	
+//产能
+	{
+		"name": "Workshop",//工坊
+		"cost": 120,
+		"maintenance": 2,
+		"production": 2,
+		"percentStatBonus": {"production": 10},
+		"requiredTech": "Metal Casting"
+	},
+//食物
+	{
+		"name": "Water Mill",//水磨机
+		"cost": 120,
+		"maintenance": 2,
+		"food": 2,
+		"production": 2,
+		"uniques": ["Must be on [River]","[+1 Production] from [River] tiles [in this city]"],
+		"requiredTech": "The Wheel"
+	},
+	{
+	       "name": "淡水之都",
+		"food": 2,
+		"production": 2,
+		"cost": 100,		
+		"uniques": ["[+2 Food] from [Lakes] tiles [in this city]","Limited to [1] per Civilization","Must be next to [Fresh water]"],
+		"percentStatBonus": {"food": 33},
+		"requiredTech": "The Wheel"
+	},	
+	{
+		"name": "Aqueduct",//饮水渠
+		"maintenance": 2,
+		"cost": 120,
+		"uniques": ["[50]% Food is carried over after population increases [in this city]"],
+		"requiredTech": "Mathematics"
+	},
+	{
+		"name": "Granary",//粮仓
+		"cost": 60,
+		"food": 3,
+		"maintenance": 1,
+		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]"],
+		"requiredTech": "Pottery"
+	},	
+	{
+		"name": "Hospital",//医院
+		"food": 5,
+		"cost": 120,		
+		"maintenance": 2,
+		"requiredBuilding": "Granary",
+		"requiredTech": "Mathematics"
+	},
+//金钱
+	{
+		"name": "Market",//市场
+		"cost": 60,
+		"gold": 2,
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Pottery"
+	},	
+//科研
+	{
+		"name": "造纸坊",
+		"science": 1,	
+		"cost": 40,
+		"maintenance": 1,
+		"uniques": ["[+1 Science] from [小学院] tiles [in this city]"],
+		"requiredTech": "Pottery"
+	},
+	{
+		"name": "Library",//图书馆
+		"cost": 60,
+		"science": 1,		
+		"maintenance": 1,
+		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "藏书阁",
+		"requiredBuilding": "Library",
+		"cost": 120,
+		"science": 2,		
+		"maintenance": 2,
+		"uniques": ["[+1 Science] per [1] population [in this city]"],
+		"requiredTech": "Philosophy"
+	},
+//信仰
+	{
+		"name": "Shrine",//小寺庙
+		"faith": 2,
+		"cost": 40,
+		"maintenance": 1,
+		"requiredTech": "Pottery",
+		"uniques": ["Hidden when religion is disabled"]
+	},
+	{
+		"name": "Temple",//中寺庙
+		"faith": 3,
+		"requiredBuilding": "Shrine",
+		"maintenance": 1,
+		"cost": 60,		
+		"requiredTech": "Calendar",
+		"uniques": ["Hidden when religion is disabled"]
+	},
+	{
+		"name": "大寺庙",
+		"requiredBuilding": "Temple",
+		"faith": 5,	
+		"cost": 120,
+		"maintenance": 2,
+		"requiredTech": "Theology"
+		"uniques": ["Hidden when religion is disabled"]		
+	},
+//文化
+	{
+		"name": "Monument",//纪念碑
+		"culture": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Amphitheater",//圆形剧场
+		"culture": 3,
+		"requiredBuilding": "Monument",
+		"maintenance": 1,
+		"cost": 60,
+		"requiredTech": "Drama and Poetry"
+	},
+	{
+		"name": "Opera House",//歌剧院
+		"culture": 5,
+		"cost": 90,		
+		"hurryCostModifier": 10,
+		"requiredBuilding": "Amphitheater",
+		"maintenance": 2,
+		"requiredTech": "Acoustics",
+	},
+//快乐
+	{
+		"name": "Colosseum",//竞技场
+		"cost": 120,		
+		"happiness": 3,
+		"maintenance": 1,
+		"requiredTech": "Engineering"
+	},
+//国家奇观
+	{
+		"name": "魔法书",
+		"cost": 125,
+		"isNationalWonder": true,
+		"uniques": ["[All] units gain the [基础魔法] promotion","[+2 Production, +2 Food, +1 Happiness] from every [魔石]",],
+		"requiredTech": "魔法书"
+	},
+	{
+		"name": "Ironworks",//国家工坊
+		"cost": 125,
+		"production": 8,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Workshop] in all cities", "Cost increases by [30] per owned city"],
+		"requiredTech": "Machinery"
+	},	
+	{
+		"name": "National College",//国立图书馆
+		"cost": 125,
+		"science": 5,
+		"isNationalWonder": true,
+		"percentStatBonus": {"science": 50},
+		"uniques": ["Requires a [Library] in all cities", "Cost increases by [30] per owned city"],
+		"requiredTech": "Philosophy"
+	},	
+	{
+		"name": "Grand Temple",//圣殿
+		"cost": 125,
+		"faith": 10,
+		"uniques": ["Requires a [Temple] in all cities", "Cost increases by [30] per owned city",
+		"[+100]% Natural religion spread [in this city]", "Hidden when religion is disabled"],
+		"requiredTech": "Theology",
+		"isNationalWonder": true
+	},	
+	{
+		"name": "National Epic",//民族史诗
+		"cost": 125,
+		"culture": 10,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Monument] in all cities", "[+25]% Great Person generation [in this city]", "Cost increases by [30] per owned city"],
+		"requiredTech": "Acoustics"
+	},
+	{
+		"name": "Circus Maximus",//大竞技场
+		"cost": 125,
+		"happiness": 8,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Colosseum] in all cities", "Cost increases by [30] per owned city"],
+		"requiredTech": "Engineering"
+	},
+	{
+		"name": "National Treasury",//国家市场
+		"cost": 125,
+		"gold": 8,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Market] in all cities", "Cost increases by [30] per owned city"],
+		"requiredTech": "Mathematics"
+	},
+	{
+		"name": "Heroic Epic",//英雄史诗
+		"cost": 125,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Barracks] in all cities", "All newly-trained [non-air] units [in this city] receive the [Morale] promotion",
+			"Cost increases by [30] per owned city"],
+		"requiredTech": "Iron Working"
+	},
+	
+//奇观	
+	{
+		"name": "Stonehenge",//巨石阵
+		"faith": 10,
+		"isWonder": true,
+		"requiredTech": "Calendar",
+		"quote": "'Time crumbles things; everything grows old and is forgotten under the power of time' - Aristotle"
+	},
+	{
+		"name": "Hagia Sophia",//圣索菲亚大教堂
+		"faith": 5,
+		"isWonder": true,
+		"uniques": ["Free [Great Prophet] appears", "Hidden when religion is disabled"],
+		"requiredTech": "Calendar",
+		"quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
+	},
+	{
+		"name": "Great Mosque of Djenne",//吉尼大清真寺 
+		"faith": 5,
+		"isWonder": true,
+		"uniques": ["Hidden when religion is disabled",
+			"[Missionary] units built [in this city] can [Spread Religion] [1] extra times", "[Great Prophet] units built [in this city] can [Spread Religion] [1] extra times"],
+		"requiredTech": "Theology",
+		"quote": "'With the magnificence of eternity before us, let time, with all its fluctuations, dwindle into its own littleness.' - Thomas Chalmers"
+	},
+	{
+		"name": "The Great Library",//大图书馆
+		"science": 3,
+		"isWonder": true,
+		"requiredTech": "Writing",
+		"uniques": ["Free Technology", "Gain a free [Library] [in this city]"],
+		"quote": "'Libraries are as the shrine where all the relics of the ancient saints, full of true virtue, and all that without delusion or imposture are preserved and reposed.' - Sir Francis Bacon"
+	},	
+	{
+		"name": "Porcelain Tower",//大报恩寺
+		"science": 5,
+		"isWonder": true,
+		"uniques": ["Free [Great Scientist] appears","Science gained from research agreements [+50]%"],
+		"requiredTech": "Philosophy",
+		"quote": "'Things always seem fairer when we look back at them, and it is out of that inaccessible tower of the past that Longing leans and beckons.' - James Russell Lowell"
+	},
+	{
+		"name": "Terracotta Army",//兵马俑
+		"culture": 10,
+		"isWonder": true,
+		"requiredTech": "Drama and Poetry",
+		"quote": "'Regard your soldiers as your children, and they will follow you into the deepest valleys; look on them as your own beloved sons, and they will stand by you even unto death.' - Sun Tzu"
+	},
+	{
+		"name": "The Oracle",//神域所
+		"culture": 5,
+		"isWonder": true,
+		"uniques": ["Free Social Policy"],
+		"requiredTech": "Drama and Poetry",
+		"quote": "'The ancient Oracle said that I was the wisest of all the Greeks. It is because I alone, of all the Greeks, know that I know nothing' - Socrates"
+	},
+	{
+		"name": "Sistine Chapel",//西斯廷教堂
+		"culture": 5,
+		"isWonder": true,
+		"uniques": ["[+25]% [Culture] [in all cities]"],
+		"requiredTech": "Acoustics",
+		"quote": "'I live and love in God's peculiar light.' - Michelangelo Buonarroti"
+	},
+	{
+		"name": "Hanging Gardens",//空中花园
+		"food": 2,
+		"isWonder": true,
+		"requiredTech": "Mathematics",
+		"uniques": ["[+2 Food] [in all cities]"],
+		"quote": "'I think that if ever a mortal heard the word of God it would be in a garden at the cool of the day.' - F. Frankfort Moore"
+	},		
+	{
+		"name": "Chichen Itza",//齐秦察奇
+		"culture": 1,
+		"happiness": 4,
+		"isWonder": true,
+		"uniques": ["[+50]% Golden Age length"],
+		"requiredTech": "Guilds",
+		"quote": "'The katun is established at Chichen Itza. The settlement of the Itza shall take place there. The quetzal shall come, the green bird shall come. Ah Kantenal shall come. It is the word of God. The Itza shall come.' - The Books of Chilam Balam"
+	},
+	{
+		"name": "Colossus",//太阳神雕像
+		"cost": 185,
+		"gold": 5,
+		"isWonder": true,
+		"uniques": ["[+1 Gold] from every [Bonus resource]","[+1 Gold] from every [Strategic resource]"],
+		"requiredTech": "Guilds",
+		"quote": "'Why man, he doth bestride the narrow world like a colossus, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare, Julius Caesar"
+	},
+	{
+		"name": "Great Wall",//长城
+		"isWonder": true,
+		"uniques": ["Enemy [Land] units must spend [1] extra movement points when inside your territory",
+		"[+20]% Production when constructing [Military] units [in this city]"],
+		"requiredTech": "Construction",
+		"quote": "'The art of war teaches us to rely not on the likelihood of the enemy's not attacking, but rather on the fact that we have made our position unassailable.' - Sun Tzu"
+	},		
+]

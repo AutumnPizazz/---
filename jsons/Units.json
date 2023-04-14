@@ -1,0 +1,2110 @@
+[
+	       {
+		"name": "学士",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 18,
+		"requiredTech": "Pottery",
+		"uniques": ["Can construct [小学院] <if it hasn't used other actions yet>"],
+	       },
+	       {
+		"name": "道路工程师",
+		"unitType": "Civilian",
+		"movement": 3,
+		"cost": 100,
+		"uniques": ["Can build [Road] improvements on tiles",
+	       "Can build [Fort] improvements on tiles",
+	       "Limited to [2] per Civilization",
+	       "[-75]% tile improvement construction time",
+	       ],
+	       },	       
+	       {
+		"name": "史莱姆",
+		"unitType": "Sword",
+		"movement": 1,
+		"strength": 12,
+		"cost": 60,
+		"requiredTech": "魔法书",	
+		"uniques": ["Unit will heal every turn, even if it performs an action","Only available <if [魔法书] is constructed>"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	       },	       
+	       {
+		"name": "猎人",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength":5,
+		"cost": 56,
+		"requiredTech": "Bronze Working",	
+		"uniques": ["[+100]% Strength <when attacking>",
+		"Earn [20]% of killed [Military] unit's [Cost] as [Science]",
+		"Earn [20]% of killed [Military] unit's [Cost] as [Culture]",
+		"Earn [20]% of killed [Military] unit's [Cost] as [Faith]",
+		"Earn [20]% of killed [Military] unit's [Cost] as [Gold]"
+		],
+		"attackSound": "arrow"
+	       },	       
+	      	{
+		"name": "银甲士",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 10,
+		"cost": 120,
+		"requiredTech": "Engineering",
+		"requiredResource": "秘银矿",	
+		"uniques": ["[+150]% Strength <when defending>"],
+		"attackSound": "arrow"
+	       },
+	       {
+		"name": "金弓士",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 10,
+		"rangedStrength":10,
+		"cost": 120,
+		"requiredTech": "Engineering",
+		"requiredResource": "精金矿",	
+		"uniques": ["[+75]% Strength <when attacking>"],
+		"attackSound": "arrow"
+	       },
+		{
+		"name": "魂骑",
+		"unitType": "Sword",
+		"movement": 3,
+		"strength": 12,
+		"cost": 60,
+		"requiredTech": "Iron Working",
+		"obsoleteTech": "Metal Casting",		
+		"requiredResource": "Iron",	
+              "uniques": ["No defensive terrain bonus","Can move after attacking"],
+     	       "attackSound": "metalhit"
+ 	       },	       
+	       {
+		"name": "轻型攻城器",//兵种名称
+		"unitType": "Siege",//兵种类型
+		"movement": 2,//移动力
+		"strength": 10,//近战攻击力
+		"cost": 75,//产能花费
+              "requiredTech": "Bronze Working",
+              "upgradesTo": "重型攻城器",
+		"obsoleteTech": "Metal Casting",
+		"attackSound": "metalhit"//攻击声音
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>"],
+	       },	       
+	       {
+		"name": "重型攻城器",//兵种名称
+		"unitType": "Siege",//兵种类型
+		"movement": 2,//移动力
+		"strength": 20,//近战攻击力
+		"cost": 150,//产能花费
+              "requiredTech": "Metal Casting",
+		"attackSound": "metalhit"//攻击声音
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>"],
+	       },
+              {
+              "name": "鳄鱼王子—埃米尔",//兵种名称
+		"unitType": "英雄",//兵种类型
+		"uniqueTo": "神圣骑士帝国",//属于国家
+		"movement": 4,//移动力
+		"strength": 10,//近战攻击力
+	   	"cost": 100,//产能花费
+	   	"requiredResource": "英雄之证",
+              "promotions": ["英雄之力","圣疗—无限"],
+		"attackSound": "metalhit"//攻击声音
+		"uniques": [		
+		"[+30]% Strength <vs [Ranged] units>",
+		"Limited to [1] per Civilization"],
+	       },	       
+	       {
+		"name": "王朝远征军",
+		"unitType": "Civilian",
+		"uniqueTo": "神圣骑士帝国",
+		"replaces": "Settler",		
+		"movement": 2,
+		"cost": 150,
+		"uniques": ["Founds a new city", "Excess Food converted to Production when under construction",
+	       "Requires at least [3] population"],
+	       "promotions": ["Ignore terrain cost"],
+		"hurryCostModifier": 20
+	       },	       	       	    
+	       {
+		"name": "侦察骑士",             
+              "unitType": "Sword",
+		"uniqueTo": "神圣骑士帝国",
+		"replaces": "Warrior",
+		"movement": 2,
+		"strength":8,
+		"cost": 40,
+		"requiredTech": "Animal Husbandry",
+		"upgradesTo": "先锋骑兵",
+		"obsoleteTech": "Bronze Working",
+		"requiredResource": "Horses",
+		"uniques": ["[+1] Sight"],
+	       "attackSound": "horse"
+	       },
+	       {
+		"name": "先锋骑兵",
+		"unitType": "Mounted",
+		"uniqueTo": "神圣骑士帝国",
+		"movement": 4,
+		"strength": 11,
+		"cost": 56,
+		"requiredTech": "Bronze Working",	
+		"upgradesTo": "亲卫骑士",
+		"obsoleteTech": "Horseback Riding",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking"],
+		"attackSound": "horse"
+          	},
+          	{
+		"name": "亲卫骑士",
+		"unitType": "Mounted",
+		"uniqueTo": "神圣骑士帝国",
+		"replaces": "Horseman",
+		"movement": 4,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"upgradesTo": "黑暗骑士",
+		"obsoleteTech": "Guilds",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking"],
+		"attackSound": "horse"
+          	},        	
+	       {
+		"name": "黑暗骑士",
+		"unitType": "Mounted",
+		"uniqueTo": "神圣骑士帝国",
+		"replaces":"Knight",
+		"movement": 4,
+		"strength": 16,
+		"cost": 90,
+		"requiredTech": "Guilds",
+		"upgradesTo": "圣殿骑士",
+		"obsoleteTech": "Chivalry",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking"],
+		"attackSound": "horse"
+          	},  	
+	       {
+		"name": "游击先锋",
+		"unitType": "Archery",
+		"uniqueTo": "神圣骑士帝国",
+		"replaces": "Archer",
+		"movement": 2,
+		"strength": 5,
+		"rangedStrength": 8,
+		"cost": 40,
+		"requiredTech": "Archery",
+		"upgradesTo": "阵列射手",
+		"obsoleteTech": "Construction",
+		"attackSound": "arrow"
+	       },
+	       {
+		"name": "阵列射手",
+		"unitType": "Archery",
+		"uniqueTo": "神圣骑士帝国",
+		"replaces": "Composite Bowman",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 12,
+		"cost": 75,
+		"requiredTech": "Construction",
+		"upgradesTo": "游侠",
+		"obsoleteTech": "Machinery",
+		"attackSound": "arrow"
+	       },
+	       {
+		"name": "游侠",
+		"unitType": "Archery",
+		"uniqueTo": "神圣骑士帝国",
+		"replaces": "Crossbowman",	
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 20,
+		"cost": 120,
+		"requiredTech": "Machinery",
+		"attackSound": "arrow"
+	       },
+	       {
+		"name": "骑射先锋",
+		"unitType": "Archery",
+		"uniqueTo": "神圣骑士帝国",
+		"replaces": "Chariot Archer",
+		"movement": 4,
+		"strength": 6,
+		"rangedStrength": 11,
+		"cost": 56,
+		"requiredTech": "The Wheel",
+		"upgradesTo": "亲卫骑射",
+		"obsoleteTech": "Guilds",
+		"requiredResource": "Horses",
+		"uniques": ["No defensive terrain bonus","Rough terrain penalty","Never appears as a Barbarian unit"],
+	 	"attackSound": "arrow"
+	       },
+	       {
+		"name": "亲卫骑射",
+		"unitType": "Archery",
+		"uniqueTo": "神圣骑士帝国",
+		"movement": 4,
+		"rangedStrength": 15,
+		"strength": 10,
+		"cost": 90,
+		"requiredTech": "Guilds",
+		"upgradesTo": "神圣骑射",
+		"obsoleteTech": "Chivalry",
+	       "requiredResource": "Horses",
+	       "uniques": ["No defensive terrain bonus","Rough terrain penalty","Never appears as a Barbarian unit"],
+		"attackSound": "arrow"
+		},
+		{
+		"name": "神圣骑射",
+		"unitType": "Archery",
+		"uniqueTo": "神圣骑士帝国",
+		"movement": 4,
+		"rangedStrength":21,
+		"strength": 14,
+		"cost": 120,
+		"requiredTech": "Chivalry", 
+		"requiredResource": "Horses",
+		"uniques": ["No defensive terrain bonus","Rough terrain penalty","Never appears as a Barbarian unit"],
+		"attackSound": "arrow"
+		}		
+              {
+		"name": "帝国轻甲骑兵",
+		"unitType": "Mounted",
+		"uniqueTo": "神圣骑士帝国",
+		"movement": 4,
+		"strength": 12,
+		"cost": 75,
+		"requiredTech": "Bronze Working",
+		"upgradesTo": "帝国重甲骑兵",
+		"obsoleteTech": "Guilds",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking"],
+	       "promotions":  ["战术—隐蔽"],
+	       "attackSound": "horse"
+	       },
+	       {
+		"name": "帝国重甲骑兵",
+		"unitType": "Mounted",
+		"uniqueTo": "神圣骑士帝国",
+		"movement": 4,
+		"strength": 16,
+		"cost": 100,
+		"requiredTech": "Guilds",
+		"upgradesTo": "圣殿骑士",
+		"obsoleteTech": "Chivalry",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking"],
+	       "promotions":  ["战术—隐蔽"],
+	       "attackSound": "horse"
+	       },
+	       {
+		"name": "帝国枪骑手",
+		"unitType": "Mounted",
+		"uniqueTo": "神圣骑士帝国",
+		"movement": 4,
+		"strength": 12,
+		"cost": 75,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Guilds",
+		"upgradesTo": "帝国长枪骑手",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","[+33]% Strength <vs [Mounted] units>"],
+		"attackSound": "metalhit"
+		},
+              {
+		"name": "帝国长枪骑手",
+		"unitType": "Mounted",
+		"uniqueTo": "神圣骑士帝国",
+		"movement": 4,
+		"strength": 16,
+		"cost": 100,
+		"requiredTech": "Guilds",
+		"uniques": ["Can move after attacking","[+33]% Strength <vs [Mounted] units>"],
+		"upgradesTo": "圣殿骑士",
+		"obsoleteTech": "Chivalry",
+	       "requiredResource": "Horses",
+		"attackSound": "metalhit"
+		},
+		{
+		"name": "圣殿骑士",
+		"unitType": "Mounted",
+		"uniqueTo": "神圣骑士帝国",
+		"movement": 4,
+		"strength": 20,
+		"cost": 180,
+		"requiredTech": "Chivalry",  
+		"requiredResource": "Horses",
+		"uniques": ["Consumes [4] [Horses]","Consumes [3] [Iron]","Can move after attacking","[+50]% Strength <when attacking>"],
+	       "promotions":  ["战术—隐蔽","战术—列阵"],		
+		"attackSound": "horse",
+		}
+		{
+		"name": "教士",
+		"unitType": "Civilian",
+		"uniqueTo": "神圣骑士帝国",
+		"replaces": "Great Prophet",
+		"movement": 3,
+		"cost": 150,
+		"religiousStrength": 2000
+		"uniques": [
+		"Great Person - [Faith]",
+		"Religious Unit",
+		"Unbuildable",
+		"Can construct [骑士圣地]",
+		"May found a religion",
+		"May enhance a religion",
+		"Can [Spread Religion] [5] times",
+		"Removes other religions when spreading religion",
+		"Takes your religion over the one in their birth city",
+		"Prevents spreading of religion to the city it is next to",
+		"May enter foreign tiles without open borders"],
+	       }
+	       {
+		"name": "兽人斧战士",
+		"unitType": "Sword",
+		"uniqueTo": "战歌兽人部落",
+		"replaces": "Warrior",
+		"movement": 2,
+		"strength": 10,
+		"cost": 50,
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "兽人锐斧战士",
+		"attackSound": "nonmetalhit",
+              },
+              {
+		"name": "兽人锐斧战士",
+		"unitType": "Sword",
+		"uniqueTo": "战歌兽人部落",
+		"replaces": "Swordsman",
+		"movement": 2,
+		"strength": 15,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "兽人利斧战士",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit",
+	       },
+	       {
+		"name": "兽人利斧战士",
+		"unitType": "Sword",
+		"uniqueTo": "战歌兽人部落",
+		"replaces": "Longswordsman",
+		"movement": 2,
+		"strength": 23,
+		"cost": 120,
+ 		"requiredTech": "Steel", 
+		"requiredResource": "Iron",
+		"attackSound": "metalhit"
+	       },
+	       {
+		"name": "兽人狂暴战士",
+		"unitType": "Sword",
+		"uniqueTo": "战歌兽人部落",
+		"movement": 2,
+		"strength": 18,
+		"cost": 120,
+		"requiredTech": "Steel", 
+		"requiredResource": "魔石",
+		"promotions":  ["战吼—狂暴","战吼—无畏"],
+		"attackSound": "metalhit"
+	       },
+	       {
+		"name": "巨魔投矛手",
+		"unitType": "Archery",
+		"uniqueTo": "战歌兽人部落",
+		"replaces": "Archer",
+		"movement": 2,
+		"strength": 5,
+		"rangedStrength": 8,
+		"cost": 40,
+		"requiredTech": "Archery",
+		"uniques": ["[+20]% Strength <vs [Archery] units>"],
+		"obsoleteTech": "Construction",
+		"upgradesTo": "巨魔锐矛投手",
+		"attackSound": "arrow",
+	       },
+	       {
+		"name": "巨魔锐矛投手",
+		"unitType": "Archery",
+		"uniqueTo": "战歌兽人部落",
+		"replaces": "Composite Bowman",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 12,
+		"cost": 75,
+		"requiredTech": "Construction",
+		"uniques": ["[+20]% Strength <vs [Archery] units>"],
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "巨魔长矛投手",
+		"attackSound": "arrow",
+	       },
+              {
+	  	"name": "巨魔长矛投手",
+		"unitType": "Archery",
+		"uniqueTo": "战歌兽人部落",
+		"replaces": "Crossbowman",
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 20,
+		"cost": 120,
+		"requiredTech": "Machinery",
+		"uniques": ["[+20]% Strength <vs [Archery] units>"], 
+		"attackSound": "arrow",
+	       },
+         	{
+		"name": "兽人投斧手",
+		"unitType": "Archery",
+		"uniqueTo": "战歌兽人部落",
+		"movement": 2,
+		"range": 1,
+		"strength": 7,
+		"rangedStrength": 7,
+		"cost": 40,
+		"requiredTech": "Archery",
+		"obsoleteTech": "Construction",
+		"upgradesTo": "兽人锐斧投手",
+		"promotions":  ["二阶攻击强化"]		
+		"attackSound": "arrow",
+	       },
+	       {
+		"name": "兽人锐斧投手",
+		"unitType": "Archery",
+		"uniqueTo": "战歌兽人部落",
+		"movement": 2,
+		"range": 1,
+		"strength": 11,
+		"rangedStrength": 11,
+		"cost": 75,
+		"requiredTech": "Construction",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "兽人利斧投手",
+		"promotions":  ["二阶攻击强化"],		
+		"attackSound": "arrow",
+	       },
+              {
+		"name": "兽人利斧投手",
+		"unitType": "Archery",
+		"uniqueTo": "战歌兽人部落",
+		"movement": 2,
+		"range": 1,
+		"strength": 18,
+		"rangedStrength": 18,
+		"cost": 120,
+		"requiredTech": "Machinery", 
+		"promotions":  ["二阶攻击强化"]		
+		"attackSound": "arrow",
+	       },	
+	       {
+		"name": "兽人野猪骑手",
+		"unitType": "Mounted",
+		"uniqueTo": "战歌兽人部落",
+		"replaces": "Horseman",
+		"movement": 4,
+		"strength": 13,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[+33]% Strength <vs [Mounted] units>"],
+		"attackSound": "horse",
+	       },
+	       {
+		"name": "兽人野猪骑兵",
+		"unitType": "Mounted",
+		"uniqueTo": "战歌兽人部落",
+		"replaces":"Knight",
+		"movement": 4,
+		"strength": 20,
+		"cost": 120,
+		"requiredTech": "Chivalry",  
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[+33]% Strength <vs [Mounted] units>"],
+		"attackSound": "horse"
+	       }
+              {
+              "name": "宫廷御猫—喵喵",//兵种名称
+		"unitType": "英雄",//兵种类型
+		"uniqueTo": "天赐圣人王朝",//属于国家
+		"movement": 3,//移动力
+		"strength": 10,//近战攻击力
+	   	"cost": 100,//产能花费
+	   	"requiredResource": "英雄之证",
+              "promotions": ["英雄之力","战术—护卫"],
+		"uniques": ["[+30]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>","Limited to [1] per Civilization"],
+		"attackSound": "metalhit"//攻击声音
+	       },	       	       
+       	{
+		"name": "圣人",
+		"unitType": "Civilian",
+		"uniqueTo": "天赐圣人王朝",
+		"uniques": [
+		"Religious Unit",
+		"Unbuildable",
+		"Can start an [4]-turn golden age"],
+		"cost": 150,
+		"movement": 1,
+	       },	       	       
+	       {
+		"name": "游牧猎手",
+		"unitType": "Archery",
+		"replaces": "猎人",
+		"uniqueTo": "天赐圣人王朝",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength":5,
+		"cost": 56,
+		"requiredTech": "Bronze Working",	
+		"uniques": ["[+100]% Strength <when attacking>","Earn [75]% of killed [Military] unit's [Cost] as [Culture]"],
+		"attackSound": "arrow"
+	       },
+	       {
+		"name": "边防军",
+		"unitType": "Sword",
+		"uniqueTo": "天赐圣人王朝",
+	       "replaces": "Spearman",
+		"movement": 2,
+		"strength": 11,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Guilds",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"promotions": ["战术—军威"],
+		"upgradesTo": "重型边防军",
+		"attackSound": "metalhit"
+	       },
+	       {
+		"name": "重型边防军",
+		"unitType": "Sword",
+		"uniqueTo": "天赐圣人王朝",
+     	       "replaces": "Pikeman",
+		"movement": 2,
+		"strength": 16,
+		"cost": 90,
+		"requiredTech": "Guilds",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"promotions": ["战术—军威"],
+		"attackSound": "metalhit"
+	       },
+	       {
+		"name": "朱雀营",
+		"unitType": "Sword",
+		"uniqueTo": "天赐圣人王朝",
+		"replaces": "Swordsman",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "玄武营", 
+		"requiredResource": "Iron",
+		"promotions": ["战术—侧击"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	       },
+              {
+		"name": "玄武营",
+		"unitType": "Sword",
+	       "uniqueTo": "天赐圣人王朝",
+	       "replaces": "Longswordsman",
+		"movement": 2,
+		"strength": 21,
+		"cost": 120,
+ 		"requiredTech": "Steel", 
+		"requiredResource": "Iron",
+		"promotions": ["战术—侧击"],
+		"attackSound": "metalhit"
+	       },
+	       {
+	 	"name": "神箭手",
+		"unitType": "Archery",
+		"uniqueTo": "天赐圣人王朝",
+		"replaces": "Archer",
+		"movement": 2,
+		"strength": 5,
+		"rangedStrength": 8,
+		"cost": 40,
+		"requiredTech": "Archery",
+		"obsoleteTech": "Construction",
+		"upgradesTo": "神弓手",
+		"promotions": ["战术—列阵"],
+		"attackSound": "arrow"
+	       },
+	       {
+	    	"name": "神弓手",
+		"unitType": "Archery",
+		"uniqueTo": "天赐圣人王朝",
+		"replaces": "Composite Bowman",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 12,
+		"cost": 75,
+		"requiredTech": "Construction",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "神弩手",
+		"promotions": ["战术—列阵"],	
+		"attackSound": "arrow"
+	       },
+	       {
+		"name": "神弩手",
+		"unitType": "Archery",
+		"uniqueTo": "天赐圣人王朝",
+		"replaces": "Crossbowman",
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 20,
+		"cost": 120,
+		"requiredTech": "Machinery", 
+		"promotions": ["战术—列阵"],
+		"attackSound": "arrow"
+	       },
+              {
+		"name": "车兵",
+		"unitType": "Archery",
+		"uniqueTo": "天赐圣人王朝",
+		"replaces": "Chariot Archer",
+		"movement": 4,
+		"strength": 6,
+		"rangedStrength": 11,
+		"cost": 56,
+		"requiredTech": "The Wheel",
+		"requiredResource": "Horses",
+		"upgradesTo": "白虎营",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "Never appears as a Barbarian unit"],
+		"promotions": ["战术—卫国"],
+		"attackSound": "arrow"
+		},
+	       {
+		"name": "蓝虎营",
+		"unitType": "Mounted",
+		"uniqueTo": "天赐圣人王朝",
+		"replaces": "Horseman",
+		"movement": 4,
+		"strength": 13,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"upgradesTo": "白虎营",
+		"obsoleteTech": "Chivalry",
+		"requiredResource": "Horses",
+		"uniques": ["No defensive terrain bonus","Can move after attacking"],
+		"promotions": ["战术—军威"],
+		"attackSound": "horse"
+	       },
+	       {
+		"name": "白虎营",
+		"unitType": "Mounted",
+		"uniqueTo": "天赐圣人王朝",
+		"replaces":"Knight",
+		"movement": 4,
+		"strength": 20,
+		"cost": 120,
+		"requiredTech": "Chivalry",  
+		"requiredResource": "Horses",
+		"uniques": ["No defensive terrain bonus","Can move after attacking"],
+		"promotions": ["战术—军威"],
+		"attackSound": "horse"
+              },
+              {
+              "name": "黄金工匠—铜锤",//兵种名称
+		"unitType": "英雄",//兵种类型
+		"uniqueTo": "黄金矮人王国",//属于国家
+		"movement": 3,//移动力
+		"strength": 10,//近战攻击力
+	   	"cost": 100,//产能花费
+	   	"requiredResource": "英雄之证",
+              "promotions": ["英雄之力","战术—军威"],
+		"attackSound": "metalhit"//攻击声音
+		"uniques": [		
+		"[+30]% Strength <when defending>","Limited to [1] per Civilization"],
+	       },	                   
+		{
+		"name": "矮人哨兵",
+		"unitType": "Scout",
+		"replaces": "Scout",
+		"uniqueTo": "黄金矮人王国",//属于国家
+		"movement": 2,
+		"strength": 6,
+		"rangedStrength": 5,
+		"cost": 40,
+		"requiredTech": "Mining",
+		"uniques": ["[+2] Sight","Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost","圣疗—无限"],
+		"attackSound": "nonmetalhit"
+		},
+		{
+		"name": "三弓床弩",//兵种名称
+		"unitType": "Siege",//兵种类型
+		"replaces": "Catapult",
+		"uniqueTo": "黄金矮人王国",//属于国家
+		"movement": 2,//移动力
+		"strength": 10,//近战攻击力
+		"rangedStrength": 12,//远程攻击力
+		"cost": 75,//产能花费
+		"requiredTech": "The Wheel",//需要科技
+		"obsoleteTech": "Physics",//代替科技
+		"upgradesTo": "射石炮",//可以升级为
+		"uniques": ["[+100]% Strength <vs cities> <when attacking>","Must set up to ranged attack","No defensive terrain bonus"],//特性
+		"promotions": ["射程强化"],//获得晋升
+		"hurryCostModifier": 20,//
+		"attackSound": "throw"//攻击声音
+		},
+		{
+		"name": "射石炮",//兵种名称
+		"unitType": "Siege",//兵种类型
+		"replaces": "Trebuchet",
+		"uniqueTo": "黄金矮人王国",//属于国家
+		"movement": 2,//移动力
+		"strength": 15,//近战攻击力
+		"rangedStrength": 20,//远程攻击力
+		"cost": 120,//产能花费
+		"requiredTech": "Physics",//需要科技 //代替科技
+		"uniques": ["[+100]% Strength <vs cities> <when attacking>","Must set up to ranged attack", "No defensive terrain bonus"],//特性
+		"promotions": ["射程强化"],//获得晋升
+		"hurryCostModifier": 20,//
+		"attackSound": "throw"//攻击声音
+		},
+		{
+		"name": "木制攻城塔",//兵种名称
+		"unitType": "Siege",//兵种类型
+		"uniqueTo": "黄金矮人王国",//属于国家
+		"movement": 2,//移动力
+		"strength": 11,//近战攻击力
+		"cost": 56,//产能花费
+		"requiredTech": "Mining",//需要科技
+		"obsoleteTech": "Construction",//代替科技
+		"upgradesTo": "青铜攻城塔",//可以升级为
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","Can carry [2] [Aircraft] units","[+1] Sight", "Can only attack [City] units"],//特性
+		"promotions":["战术—隐蔽"]//获得晋升
+		},
+		{
+		"name": "青铜攻城塔",//兵种名称
+		"unitType": "Siege",//兵种类型
+		"uniqueTo": "黄金矮人王国",//属于国家
+		"movement": 2,//移动力
+		"strength": 14,//近战攻击力
+		"cost": 75,//产能花费
+		"requiredTech": "Construction",//需要科技
+		"upgradesTo": "钢制攻城塔",//可以升级为
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","Can carry [2] [Aircraft] units","[+1] Sight", "Can only attack [City] units"],//特性
+		"promotions":["战术—隐蔽"]//获得晋升
+		},
+		{
+		"name": "钢制攻城塔",//兵种名称
+		"unitType": "Siege",//兵种类型
+		"uniqueTo": "黄金矮人王国",//属于国家
+		"movement": 2,//移动力
+		"strength": 21,//近战攻击力
+		"cost": 120,//产能花费
+		"requiredTech": "Machinery",//需要科技
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","Can carry [2] [Aircraft] units","[+1] Sight", "Can only attack [City] units"],//特性
+		"promotions":["战术—隐蔽"]//获得晋升
+		},
+		{
+		"name": "矮人飞行器",//兵种名称
+		"unitType": "Fighter",//兵种类型
+		"uniqueTo": "黄金矮人王国",//属于国家
+		"movement": 0,//移动力
+		"strength": 9,//近战攻击力
+		"rangedStrength": 9,
+		"cost": 50,//产能花费
+		"requiredTech": "Mining",//需要科技
+		"obsoleteTech": "Construction",//代替科技
+		"upgradesTo": "浮空艇",//可以升级为
+		"promotions": ["一阶回复魔法"],//获得晋升
+		"hurryCostModifier": 20,//
+		"attackSound": "throw"//攻击声音
+		"uniques": ["[+50]% Strength <vs cities> <when attacking>","[-4] Sight"]
+		},
+		{
+		"name": "浮空艇",//兵种名称
+		"unitType": "Fighter",//兵种类型
+		"uniqueTo": "黄金矮人王国",//属于国家
+		"movement": 0,//移动力
+		"strength": 13,//近战攻击力
+		"rangedStrength": 13,
+		"cost": 100,//产能花费
+		"requiredTech": "Construction",//需要科技
+		"obsoleteTech": "Machinery",//代替科技
+		"upgradesTo": "矮人飞艇",//可以升级为
+		"promotions": ["一阶回复魔法"],//获得晋升
+		"hurryCostModifier": 20,//
+		"attackSound": "throw"//攻击声音
+		"uniques": ["[+50]% Strength <vs cities> <when attacking>","[-4] Sight"]
+	       },
+	       {
+		"name": "矮人飞艇",//兵种名称
+		"unitType": "Fighter",//兵种类型
+		"uniqueTo": "黄金矮人王国",//属于国家
+		"movement": 0,//移动力
+		"strength": 21,//近战攻击力
+		"rangedStrength": 21,
+		"cost": 150,//产能花费
+		"requiredResource": "Iron",
+		"requiredTech": "Machinery",//需要科技 //代替科技
+		"promotions": ["圣疗—无限"],//获得晋升
+		"hurryCostModifier": 20,//
+		"attackSound": "throw"//攻击声音
+		"uniques": ["[+50]% Strength <vs cities> <when attacking>","[-4] Sight"]
+		"promotions":["一阶回复魔法"]
+	       },
+              {
+              "name": "爬行之王—惘珞佧",//兵种名称
+		"unitType": "英雄",//兵种类型
+		"uniqueTo": "爬行联合帝国",//属于国家
+		"movement": 2,//移动力
+		"strength": 10,//近战攻击力
+	   	"cost": 100,//产能花费
+	   	"requiredResource": "英雄之证",
+              "promotions": ["英雄之力","战术—护卫","战术—侦查","二阶回复魔法"],
+		"attackSound": "metalhit"//攻击声音
+		"uniques": ["[+50]% Strength <vs [Mounted] units>","Limited to [1] per Civilization"],
+	       },
+              {
+		"name": "鳄人勇士",//兵种名称
+		"unitType": "Sword",//兵种类型
+		"uniqueTo": "爬行联合帝国",//属于国家
+		"movement": 2,//移动力
+		"strength": 8,//近战攻击力
+		"cost": 45,//产能花费
+		"obsoleteTech": "Metal Casting",//代替科技
+              "replaces": "Warrior",
+              "upgradesTo": "鳄人剑盾兵",
+		"promotions": ["强化—水泽"],//获得晋升
+		"attackSound": "metalhit"//攻击声音
+		"uniques": ["[+10]% Strength <vs [Sword] units>"],
+	       },
+		{
+		"name": "鳄人剑盾兵",//兵种名称
+		"unitType": "Sword",//兵种类型
+		"uniqueTo": "爬行联合帝国",//属于国家
+		"movement": 2,//移动力
+		"strength": 13,//近战攻击力
+		"cost": 75,//产能花费
+              "requiredResource": "Iron",
+		"requiredTech": "Iron Working",//需要科技
+		"obsoleteTech": "Steel",//代替科技
+              "replaces": "Swordsman",
+		"upgradesTo": "鳄人剑盾卫士",//可以升级为
+		"promotions": ["强化—水泽"],//获得晋升
+		"attackSound": "metalhit"//攻击声音
+		"uniques": ["[+25]% Strength <vs [Sword] units>"],
+	       },
+	       {
+		"name": "鳄人剑盾卫士",//兵种名称
+		"unitType": "Sword",//兵种类型
+		"uniqueTo": "爬行联合帝国",//属于国家
+		"movement": 2,//移动力
+		"strength": 20,//近战攻击力
+	     	"cost": 120,//产能花费
+              "requiredResource": "Iron",
+		"requiredTech": "Steel",//需要科技
+              "replaces": "Longswordsman",
+		"promotions": ["强化—水泽"],//获得晋升
+		"attackSound": "metalhit"//攻击声音
+		"uniques": ["[+25]% Strength <vs [Sword] units>"],
+	       },
+	       {
+		"name": "蜥蜴人侦察兵",//兵种名称
+		"unitType": "Scout",//兵种类型
+		"uniqueTo": "爬行联合帝国",//属于国家
+		"movement": 3,//移动力
+		"strength": 5,//近战攻击力
+		"cost": 30,//产能花费
+              "replaces": "Scout",
+		"promotions": ["Ignore terrain cost","战术—护卫"],//获得晋升
+		"attackSound": ""//攻击声音
+	       },
+	       {
+		"name": "变色龙短弓手",//兵种名称
+		"unitType": "Archery",//兵种类型
+		"uniqueTo": "爬行联合帝国",//属于国家
+		"movement": 2,//移动力
+		"strength": 5,//近战攻击力
+		"rangedStrength": 8,//远程攻击力
+		"cost": 40,//产能花费
+		"requiredTech": "Archery",//需要科技
+	 	"obsoleteTech": "Construction",//代替科技
+              "replaces": "Archer",
+		"upgradesTo": "变色龙长弓手",//可以升级为
+		"promotions": ["战术—隐蔽"],//获得晋升
+		"attackSound": "arrow"//攻击声音
+	       },
+		{
+		"name": "变色龙长弓手",//兵种名称
+		"unitType": "Archery",//兵种类型
+		"uniqueTo": "爬行联合帝国",//属于国家
+		"movement": 2,//移动力
+		"strength": 7,//近战攻击力
+		"rangedStrength": 12,//远程攻击力
+		"cost": 75,//产能花费
+		"requiredTech": "Construction",//需要科技
+		"obsoleteTech": "Machinery",//代替科技
+              "replaces": "Composite Bowman",
+		"upgradesTo": "变色龙劲弩手",//可以升级为
+		"promotions": ["战术—隐蔽"],//获得晋升
+		"attackSound": "arrow"//攻击声音
+	       },
+	       {
+		"name": "变色龙劲弩手",//兵种名称
+		"unitType": "Archery",//兵种类型
+		"uniqueTo": "爬行联合帝国",//属于国家
+		"movement": 2,//移动力
+		"strength": 13,//近战攻击力
+		"rangedStrength": 20,//远程攻击力
+		"cost": 120,//产能花费
+	  	"requiredTech": "Machinery",//需要科技
+              "replaces": "Crossbowman",
+		"promotions": ["战术—隐蔽"],//获得晋升
+		"attackSound": "arrow"//攻击声音
+	       },
+	       {
+		"name": "蜥蜴人矛手",//兵种名称
+		"unitType": "Sword",//兵种类型
+		"uniqueTo": "爬行联合帝国",//属于国家
+		"movement": 2,//移动力
+		"strength": 11,//近战攻击力
+	    	"cost": 56,//产能花费
+              "promotions": ["战术—护卫"],
+		"requiredTech": "Bronze Working",//需要科技
+		"obsoleteTech": "Guilds",//代替科技
+              "replaces": "Spearman",
+		"upgradesTo": "蜥蜴人长矛兵",//可以升级为
+		"attackSound": "metalhit"//攻击声音
+		"uniques": ["[+66]% Strength <vs [Mounted] units>"],
+	       },
+	       {
+		"name": "蜥蜴人长矛兵",//兵种名称
+		"unitType": "Sword",//兵种类型
+		"uniqueTo": "爬行联合帝国",//属于国家
+		"movement": 2,//移动力
+		"strength": 16,//近战攻击力
+		"cost": 90,//产能花费
+              "promotions": ["战术—护卫"],
+		"requiredTech": "Guilds",//需要科技
+              "replaces": "Pikeman",
+		"attackSound": "metalhit"//攻击声音
+		"uniques": ["[+66]% Strength <vs [Mounted] units>"],
+	       },
+              {
+		"name": "爬行军团",//兵种名称
+		"unitType": "Sword",//兵种类型
+		"uniqueTo": "爬行联合帝国",//属于国家
+		"movement": 2,//移动力
+		"strength": 24,//近战攻击力
+		"cost": 200,//产能花费
+              "requiredResource": "魔石",
+		"requiredTech": "Steel",//需要科技
+		"uniques": ["Transfer Movement to [Great General]", "[+50]% Strength when stacked with [Great General]"],		
+		"promotions": ["强化—水泽"],//获得晋升
+		"attackSound": "metalhit"//攻击声音
+	       },
+		{
+		"name": "蜥蜴人骑兵",//兵种名称
+		"unitType": "Mounted",//兵种类型
+		"uniqueTo": "爬行联合帝国",//属于国家
+		"movement": 3,//移动力
+		"strength": 13,//近战攻击力
+		"cost": 75,//产能花费
+		"requiredTech": "Horseback Riding",//需要科技
+		"obsoleteTech": "Chivalry",//代替科技
+              "replaces": "Horseman",
+		"upgradesTo": "蜥蜴人荣誉骑兵",//可以升级为
+		"promotions": ["战术—护卫"],//获得晋升
+		"attackSound": "metalhit"//攻击声音
+		"uniques": ["[+30]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Can move after attacking"],
+	       },
+	       {
+		"name": "蜥蜴人荣誉骑兵",//兵种名称
+		"unitType": "Mounted",//兵种类型
+		"uniqueTo": "爬行联合帝国",//属于国家
+		"movement": 3,//移动力
+		"strength": 20,//近战攻击力
+ 		"cost": 120,//产能花费
+	  	"requiredTech": "Chivalry",//需要科技
+              "replaces": "Knight",
+		"promotions": ["战术—护卫"],//获得晋升
+		"attackSound": "metalhit"//攻击声音
+		"uniques": ["[+30]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Can move after attacking"],
+	       },
+              {
+	 	"name": "蜥蜴人投手",//兵种名称
+		"unitType": "Archery",//兵种类型
+		"uniqueTo": "爬行联合帝国",//属于国家
+		"movement": 4,//移动力
+		"strength": 6,//近战攻击力
+              "rangedStrength": 11,//远程攻击力
+              "range": 1,
+		"cost": 56,//产能花费
+		"requiredTech": "The Wheel",//需要科技
+		"obsoleteTech": "Chivalry",//代替科技
+              "replaces": "Chariot Archer",
+              "upgradesTo": "蜥蜴人精锐投手",
+              "uniques": ["No defensive terrain bonus","Can move after attacking"],
+		"attackSound": "arrow"//攻击声音
+	       },   
+              {
+		"name": "蜥蜴人精锐投手",//兵种名称
+		"unitType": "Archery",//兵种类型
+		"uniqueTo": "爬行联合帝国",//属于国家
+		"movement": 4,//移动力
+		"strength": 13,//近战攻击力
+              "rangedStrength": 20,//远程攻击力
+              "range": 1,
+	  	"cost": 120,//产能花费
+		"requiredTech": "Chivalry",//需要科技
+              "uniques": ["No defensive terrain bonus","Can move after attacking"],
+		"attackSound": "arrow"//攻击声音
+	       },
+       {
+              "name": "混沌战帅—荷鲁斯",//兵种名称
+		"unitType": "英雄",//兵种类型
+		"uniqueTo": "混沌鼠人帝国",//属于国家
+		"movement": 4,//移动力
+		"strength": 10,//近战攻击力
+	   	"cost": 100,//产能花费
+	   	"requiredResource": "英雄之证",
+              "promotions": ["英雄之力","灵能—链接"],
+		"attackSound": "metalhit"//攻击声音
+		"uniques": [		
+		"[+50]% Strength <vs [英雄] units>","Limited to [1] per Civilization"],
+	},	       
+	{
+		"name": "传令兵",
+		"replaces": "Settler",
+		"uniqueTo": "混沌鼠人帝国",
+		"unitType": "Civilian",
+		"movement": 3,
+		"cost": 120,
+		"uniques": ["Can build [Land] improvements on tiles","Founds a new city", "Excess Food converted to Production when under construction","Never appears as a Barbarian unit","Requires at least [3] population",],
+	},
+	{
+		"name": "奴隶",
+		"replaces": "Worker",
+		"uniqueTo": "混沌鼠人帝国",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["May create improvements on water resources","Can build [Land] improvements on tiles"],
+		"cost": 60
+	},
+	{
+		"name": "Galley",
+		"unitType": "Melee Water",
+		"uniqueTo": "混沌鼠人帝国",
+		"movement": 3,
+		"strength": 7,
+		"cost": 40,
+		"upgradesTo": "Trireme",
+		"attackSound": "nonmetalhit"
+		//Barbarian unique naval unit, weaker and slower than Trireme.
+	},
+	{
+		"name": "Brute",
+		"unitType": "Sword",
+		"uniqueTo": "混沌鼠人帝国",
+		"replaces": "Warrior",
+		"movement": 2,
+		"strength": 5,
+		"cost": 20,
+		"upgradesTo": "Swordsman",
+		"attackSound": "nonmetalhit"
+	},	
+	{
+		"name": "Marauder",
+		"unitType": "Sword",
+		"replaces": "Spearman",
+		"uniqueTo": "混沌鼠人帝国",
+		"movement": 2,
+		"strength": 10,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"requiredTech": "Guilds",			
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+100]% Strength <vs [Mounted] units>"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Skirmisher",
+		"unitType": "Archery",
+		"uniqueTo": "混沌鼠人帝国",
+		"replaces": "Archer",
+		"movement": 3,
+		"strength": 6,
+		"rangedStrength": 8,
+		"cost": 40,
+		"requiredTech": "Archery",	
+		"upgradesTo": "Crossbowman",
+		"attackSound": "arrow"
+	},
+	{
+		"name": "鼠狼",
+		"unitType": "Scout",
+		"replaces": "Scout",
+		"uniqueTo": "混沌鼠人帝国",
+		"movement": 2,
+		"strength": 10,
+		"cost": 45,
+		"requiredTech": "Bronze Working",
+		"uniques": ["Can move after attacking","Never appears as a Barbarian unit"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "部落武士",
+		"unitType": "Sword",
+		"uniqueTo": "混沌鼠人帝国",
+		"replaces": "Swordsman",
+		"movement": 2,
+		"strength": 15,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"requiredTech": "Steel",		
+		"uniques": ["Can build [战壕] improvements on tiles","Can build [铁丝网] improvements on tiles","Can move after attacking"],
+		"upgradesTo": "重装斧手",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "重装斧手",
+		"unitType": "Sword",
+		"uniqueTo": "混沌鼠人帝国",
+		"replaces": "Longswordsman",
+		"movement": 2,
+		"strength": 22,
+		"cost": 120,
+ 		"requiredTech": "Steel",
+		"requiredResource": "Iron",
+		"uniques": ["Can build [战壕] improvements on tiles","Can build [铁丝网] improvements on tiles","Can move after attacking"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "阿萨姆披甲长枪军",
+		"unitType": "Sword",
+		"replaces": "Pikeman",
+		"uniqueTo": "混沌鼠人帝国",
+		"movement": 3,
+		"strength": 17,
+		"cost": 90,
+		"requiredTech": "Guilds",
+		"uniques": ["Never appears as a Barbarian unit","[+30]% Strength <vs [Mounted] units>", "Can move immediately once bought"],
+		"requiredResource": "Iron",
+		"attackSound": "metalhit"
+		//"Requires [Mercenary Army]" in BNW
+	},
+	{
+		"name": "游牧骑兵",
+		"unitType": "Archery",
+		"uniqueTo": "混沌鼠人帝国",
+		"replaces": "Chariot Archer",
+		"movement": 3,
+		"strength": 6,
+		"rangedStrength": 10,
+		"cost": 56,
+		"requiredResource": "Horses",
+		"requiredTech": "The Wheel",
+		"upgradesTo": "混沌鼠人骑士团",
+		"uniques": ["Can move after attacking","Never appears as a Barbarian unit","No defensive terrain bonus","Rough terrain penalty","Never appears as a Barbarian unit"],
+		"promotions": ["战术—侵略"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "山地骑手",
+		"unitType": "Mounted",
+		"uniqueTo": "混沌鼠人帝国",
+		"replaces": "Horseman",	
+		"movement": 4,
+		"strength": 13,
+		"cost": 75,
+		"requiredResource": "Horses",
+		"requiredTech": "Horseback Riding"
+		"upgradesTo": "混沌鼠人骑士团",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["No defensive terrain bonus","Can move after attacking"],
+		"promotions": ["战术—侵略"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	{
+		"name": "混沌鼠人骑士团",
+		"unitType": "Mounted",
+		"replaces": "Knight",
+		"uniqueTo": "混沌鼠人帝国",
+		"movement": 4,
+		"strength": 20,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"requiredResource": "Horses", 
+		"promotions": ["战术—侵略"],
+		"uniques": ["No defensive terrain bonus","Never appears as a Barbarian unit","Can move after attacking"],
+		"attackSound": "arrow",
+	},
+       {
+		"name": "半自动弩手",
+		"unitType": "Archery",
+		"uniqueTo": "混沌鼠人帝国",
+		"replaces": "Crossbowman",
+		"movement": 2,
+		"strength": 14,
+		"rangedStrength": 18,
+		"cost": 200,
+		"requiredTech": "Machinery",
+		"uniques": ["[1] additional attacks per turn", "Can move after attacking","Never appears as a Barbarian unit"], 
+		"attackSound": "arrow",
+	},
+	{
+		"name": "废鼠投石机",
+		"unitType": "Siege",
+		"uniqueTo": "混沌鼠人帝国",
+		"replaces": "Trebuchet",
+		"movement": 2,
+		"strength": 10,
+		"rangedStrength": 20,
+		"cost": 120,
+		"requiredTech": "Physics", 
+		"uniques": ["[+100]% Strength <vs cities> <when attacking>","Never appears as a Barbarian unit"],
+		"attackSound": "throw"
+	},
+		{
+		"name": "狂暴树人—可豆",
+		"unitType": "英雄",
+		"uniqueTo": "精灵-树人",
+		"movement": 3,
+		"strength": 10,
+		"rangedStrength": 10,
+              "cost": 100,
+              "requiredResource": "英雄之证",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","Limited to [1] per Civilization"],
+		"promotions": ["英雄之力","风行者","林中行者"],
+		},	
+		{
+		"name": "新生之种",
+		"replaces": "Settler",
+		"uniqueTo": "精灵-树人",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 120,
+		"uniques": ["Founds a new city","Excess Food converted to Production when under construction","Requires at least [2] population","Limited to [3] per Civilization"],
+		"hurryCostModifier": 20,
+	       }
+	       {
+		"name": "小精灵",
+		"replaces": "Worker",
+		"uniqueTo": "精灵-树人",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Can build [Land] improvements on tiles","All adjacent units heal [+5] HP when healing", "[+5] HP when healing"],
+		"cost": 80,
+	       } 
+	       {
+		"name": "树人投掷手",
+		"replaces": "Chariot Archer",
+		"uniqueTo": "精灵-树人",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 6,
+		"rangedStrength": 11,
+		"cost": 56,
+		"requiredTech": "The Wheel",
+		"upgradesTo": "精锐树人投掷手",
+		"obsoleteTech": "Machinery",
+		"attackSound": "arrow",
+	       }
+	       {
+		"name": "精锐树人投掷手",
+		"uniqueTo": "精灵-树人",
+		"unitType": "Archery",
+		"replaces": "Composite Bowman",		
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 13,
+		"cost": 75,
+		"requiredTech": "Construction",
+		"upgradesTo": "树人长老",
+		"obsoleteTech": "Machinery",
+		"attackSound": "arrow",
+	       }
+	       {
+		"name": "树人长老",
+		"uniqueTo": "精灵-树人",
+		"unitType": "Archery",
+		"replaces": "Crossbowman",		
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 21,
+		"cost": 120,
+		"requiredTech": "Machinery", 
+		"attackSound": "arrow",
+	       }
+	       {
+		"name": "比克小精灵弓箭手"
+		"uniqueTo": "精灵-树人",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 10,
+		"rangedStrength": 18,
+		"cost": 120,
+		"requiredTech": "Machinery",
+		"promotions": ["射程强化"],
+		"attackSound": "arrow",
+	       }
+	       {
+		"name": "树人战士" 
+		"unitType": "Sword",
+		"replaces": "Spearman",
+		"uniqueTo": "精灵-树人",
+		"movement": 2,
+		"strength": 12,
+		"cost": 56,
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Guilds",
+		"upgradesTo": "精锐树人战士",
+		"attackSounnd": "metalhit" ,
+	       }
+	       {
+		"name": "精锐树人战士" 
+		"unitType": "Sword",
+		"replaces": "Pikeman",
+		"uniqueTo": "精灵-树人",
+		"movement": 2,
+		"strength": 17,
+		"cost": 90,
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"requiredTech": "Guilds",
+		"attackSounnd": "metalhit" ,
+	       }
+	       {
+		"name": "比克小精灵",
+		"unitType": "Sword",
+		"uniqueTo": "精灵-树人",
+		"replaces": "Warrior",
+		"movement": 2,
+		"strength": 9,
+		"cost": 40,
+		"requiredTech": "Agriculture",
+		"upgradesTo": "比克小精灵士兵",
+		"obsoleteTech": "Iron Working",
+		"attackSound": "metalhit",
+	       }
+	       {
+		"name": "比克小精灵士兵", 
+		"unitType": "Sword",
+		"uniqueTo": "精灵-树人",
+		"replaces": "Swordsman",
+		"movement": 2,
+		"strength":15,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "比克小精灵士兵长",
+		"obsoleteTech": "Steel",
+		"uniques": ["Can build [树营] improvements on tiles", "Can build [智慧之树] improvements on tiles"],
+		"requiredResource": "Iron",
+		"attackSound": "metalhit",
+	       }
+	       {
+		"name": "比克小精灵士兵长", 
+		"unitType": "Sword",
+		"uniqueTo": "精灵-树人",
+		"replaces": "Longswordsman",
+		"movement": 2,
+		"strength":22,
+		"cost": 120,
+ 		"requiredTech": "Steel",		
+ 		"uniques": ["Can build [树营] improvements on tiles", "Can build [智慧之树] improvements on tiles"],
+		"requiredResource": "Iron",
+		"attackSound": "metalhit",
+	       }
+	       { 
+		"name": "自然之友",
+		"replaces": "Horseman",
+		"uniqueTo": "精灵-树人",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 13,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[+30]% Strength <vs cities> <when attacking>"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse",
+	       }
+	       {
+		"name": "德鲁伊游击者",
+		"unitType": "Archery",
+		"uniqueTo": "精灵合众王国",
+		"movement": 4,
+		"strength": 5,
+		"rangedStrength": 7,
+		"cost": 30,
+		"requiredTech": "Archery",
+		"uniques": ["No defensive terrain bonus"],
+		"attackSound": "arrow"
+	       },
+              {
+		"name": "精灵弓手",
+		"unitType": "Archery",
+		"uniqueTo": "精灵合众王国",
+		"replaces": "Archer",
+		"movement": 2,
+		"strength": 6,
+		"rangedStrength": 8,
+		"cost": 35,
+		"requiredTech": "Archery",
+              "upgradesTo": "精灵老练弓手",
+		"obsoleteTech": "Machinery",
+		"attackSound": "arrow"
+	       },
+	       {
+	       "name": "精灵老练弓手",
+		"unitType": "Archery",
+		"uniqueTo": "精灵合众王国",
+		"replaces": "Composite Bowman",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 12,
+		"cost": 60,
+		"requiredTech": "Construction",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "神箭游侠",
+		"attackSound": "arrow"
+	       },
+	       {
+		"name": "神箭游侠",
+		"unitType": "Archery",
+		"uniqueTo": "精灵合众王国",
+		"replaces": "Crossbowman",
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 20,
+		"cost": 100,
+		"requiredTech": "Machinery", 
+		"attackSound": "arrow"
+	       },
+	       {
+		"name": "隐匿者",
+		"unitType": "Sword",
+              "uniqueTo": "精灵合众王国",
+		"replaces": "Swordsman",                         
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"requiredResource": "Iron",	
+		"obsoleteTech": "Steel",
+              "upgradesTo": "暗夜森林战士",
+              "uniques": ["Can move after attacking"],
+	       "promotions": ["战术—隐蔽"],
+	       "attackSound": "metalhit"
+	       },
+	       {
+		"name": "暗夜森林战士",
+		"unitType": "Sword",
+		"uniqueTo": "精灵合众王国",
+		"replaces": "Longswordsman",		
+		"movement": 2,
+		"strength": 21,
+		"cost": 120,
+              "requiredResource": "Iron",
+ 		"requiredTech": "Steel",		
+ 		"uniques": ["Can move after attacking"],
+              "promotions": ["战术—隐蔽"],
+		"attackSound": "metalhit"
+		},
+	       {
+              "name": "魔树",//兵种名称
+		"unitType": "Sword",//兵种类型
+		"replaces": "Spearman",
+		"uniqueTo": "精灵合众王国",//属于国家
+		"movement": 2,//移动力
+		"strength": 11,//近战攻击力
+		"cost": 56,//产能花费
+		"requiredTech": "Bronze Working",//需要科技
+		"obsoleteTech": "Guilds",//代替科技
+		"uniques": ["[+50]% Strength <vs [Mounted] units>","[+50]% Strength <vs cities> <when attacking>","No defensive terrain bonus"],//特性
+		"hurryCostModifier": 20,//
+		"attackSound": "throw"//攻击声音
+		},
+		{
+		"name": "自然树灵",//兵种名称
+		"unitType": "Sword",//兵种类型
+		"uniqueTo": "精灵合众王国",//属于国家
+		"movement": 2,//移动力
+		"strength": 16,//近战攻击力
+		"cost": 90,//产能花费
+		"requiredTech": "Guilds",//需要科技
+		"uniques": ["[+50]% Strength <vs [Mounted] units>","[+50]% Strength <vs cities> <when attacking>", "No defensive terrain bonus"],//特性
+		"hurryCostModifier": 20,//
+		"attackSound": "throw"//攻击声音
+		},
+	       {
+		"name": "山岭巨人",
+		"unitType": "Sword",
+		"uniqueTo": "精灵合众王国",
+		"movement": 1,
+		"strength": 20,
+		"cost": 120,
+              "requiredResource": "魔石",		
+		"requiredTech": "The Wheel",
+		"obsoleteTech": "Guilds",
+		"uniques": ["[+30]% Strength <vs cities> <when attacking>"],
+		},
+		{
+		"name": "神弓风暴—遮目",
+		"unitType": "英雄",
+		"uniqueTo": "精灵合众王国",
+		"movement": 3,
+		"strength": 10,
+		"rangedStrength": 10,
+              "cost": 100,
+              "requiredResource": "英雄之证",
+		"uniques": ["[+50]% Strength <vs cities> <when attacking>","Can carry [2] [Missile] units","Limited to [1] per Civilization"],
+		"promotions": ["英雄之力","射程强化"],
+		},
+		{
+		"name": "神箭",
+		"unitType": "Missile",
+		"uniqueTo": "精灵合众王国",
+		"movement": 1,
+		"strength": 30,
+		"rangedStrength": 30,
+		"range": 3,
+		"cost": 100,
+              "requiredResource": "魔石",		
+		"requiredTech": "Metal Casting",
+              "uniques": ["Blast radius [1]"],
+		"attackSound": "shipguns"
+	       },
+	       {
+		"name": "初阶魔法小队",//兵种名称
+		"unitType": "Siege",//兵种类型
+		"replaces": "Catapult",
+		"uniqueTo": "精灵合众王国",//属于国家
+		"movement": 2,//移动力
+		"strength": 7,//近战攻击力
+		"rangedStrength": 11,//远程攻击力
+		"cost": 100,//产能花费
+		"requiredTech": "The Wheel",//需要科技
+		"obsoleteTech": "Physics",//代替科技
+		"upgradesTo": "高阶魔法小队",//可以升级为
+		"uniques": ["[+100]% Strength <vs cities> <when attacking>","Must set up to ranged attack"],//特性
+		"promotions": ["射程强化"],//获得晋升
+		"hurryCostModifier": 20,//
+		"attackSound": "throw"//攻击声音
+		},
+		{
+		"name": "高阶魔法小队",//兵种名称
+		"unitType": "Siege",//兵种类型
+		"replaces": "Trebuchet",
+		"uniqueTo": "精灵合众王国",//属于国家
+		"movement": 2,//移动力
+		"strength": 12,//近战攻击力
+		"rangedStrength": 18,//远程攻击力
+		"cost": 150,//产能花费
+		"requiredTech": "Physics",//需要科技 //代替科技
+		"uniques": ["[+100]% Strength <vs cities> <when attacking>","Must set up to ranged attack"],//特性
+		"promotions": ["射程强化"],//获得晋升
+		"hurryCostModifier": 20,//
+		"attackSound": "throw"//攻击声音
+		},{
+		"name": "瓦尔拉弓箭手",
+		"unitType": "Ranged",
+		"movement": 2,
+		"strength": 8,
+		"rangedStrength": 8,
+		"cost": 40,
+		"requiredTech": "Archery",
+		"obsoleteTech": "Construction",
+		"replaces": "Archer",
+		"uniqueTo": "瓦尔拉",
+		"upgradesTo": "Composite Bowman",
+		"attackSound": "arrow"
+	},
+		{
+		"name": "瓦尔拉王—沃德斯特",
+		"unitType": "英雄",
+		"uniqueTo": "瓦尔拉",
+		"movement": 3,
+		"strength": 10,
+		"rangedStrength": 10,
+              "cost": 100,
+              "requiredResource": "英雄之证",
+		"uniques": ["[+30]% Strength <vs [Sword] units>","Limited to [1] per Civilization"],
+		"promotions": ["英雄之力","射程强化"],
+		},{
+		"name": "半人马战士",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 14,
+		"cost": 75,
+		"hurryCostModifier": 20,
+		"requiredTech": "Horseback Riding",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Can move after attacking","No defensive terrain bonus",
+			"[-33]% Strength <vs cities>"],
+		"attackSound": "horse",
+		"uniqueTo": "瓦尔拉"
+		"requiredTech": "Horseback Riding",
+		"replaces": "Horseman",
+	},{
+		"name": "瓦尔拉斥候",
+		"replaces": "Scout",
+		"unitType": "Scout",
+		"uniqueTo": "瓦尔拉",
+		"movement": 2,
+		"strength": 4,
+		"rangedStrength": 5,
+		"range": 3,
+		"cost": 30,
+		"promotions": ["Ignore terrain cost"],
+		"uniques": ["Double movement in [Forest]","Double movement in [Jungle]"],
+		"attackSound": "nonmetalhit"
+	},{
+		"name": "半人马骑射手", 
+		"uniqueTo": "瓦尔拉",
+		"unitType": "Mounted",
+		"movement": 3,
+		"strength": 6,
+		"rangedStrength": 12,
+		"cost": 80,
+		"requiredTech": "Horseback Riding",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["No defensive terrain bonus"],
+		"attackSound": "arrow"	
+	},{
+		"name": "马格尔攻城塔", 
+		"unitType": "Melee",
+		"uniqueTo": "瓦尔拉",
+		"replaces": "Trebuchet",
+		"movement": 2,
+		"strength": 20,
+		"cost": 120, 
+		"hurryCostModifier": 20,
+		"requiredTech": "Physics",
+		"uniques": ["[+200]% Strength <vs cities>","Can only attack [City] units"],
+		"attackSound": "metalhit"
+	},{
+		"name": "马格尔投掷手",
+		"unitType": "Siege",
+		"replaces": "Catapult",
+		"uniqueTo": "瓦尔拉",
+		"movement": 2,
+		"strength": 8,
+		"rangedStrength": 12,
+		"cost": 90,
+		"requiredTech": "Mathematics",
+		"obsoleteTech": "Physics",
+		"upgradesTo": "Trebuchet",
+		"uniques": ["[+50]% Strength <vs cities> <when attacking>", "No defensive terrain bonus",],
+		"hurryCostModifier": 20,
+		"attackSound": "throw"
+	},{
+		"name": "瓦尔拉硬弓手",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 9,
+		"rangedStrength": 12,
+		"cost": 75,
+		"requiredTech": "Construction",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"attackSound": "arrow",
+		"replaces":"Composite Bowman",
+		"uniqueTo": "瓦尔拉"
+	},{
+		"name": "瓦尔拉弩",
+		"unitType": "Archery",
+		"uniqueTo": "瓦尔拉",
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 18,
+		"range": 3,
+		"replaces": "Crossbowman",
+		"cost": 160,
+		"requiredTech": "Machinery",
+		"attackSound": "arrow"
+	},
+	{
+		"name": "瓦尔拉战士",
+		"unitType": "Sword",
+		"replaces": "Longswordsman",
+		"uniqueTo": "瓦尔拉",
+		"movement": 2,
+		"strength": 21,
+		"cost": 120,
+		"requiredTech": "Steel",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit",
+		"uniques": ["[+50]% Strength <when below [25] HP> <when attacking>"],
+	},
+
+	// Info according to Civilization Wiki and https://www.civfanatics.com/civ5/info/units/gods-and-kings/
+
+	/* Ancient Era */
+	{
+		"name": "Worker",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Can build [Land] improvements on tiles"],
+		"cost": 60
+	},
+	{
+		"name": "Settler",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 120,
+		"uniques": ["Founds a new city", "Excess Food converted to Production when under construction",
+		"Requires at least [3] population"],
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Scout",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 5,
+		"cost": 25,
+		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Warrior",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
+		"attackSound": "nonmetalhit",
+              "civilopediaText": [
+		{"text": "This is your basic, club-swinging fighter."}
+       ]
+	},
+	{
+		"name": "【魔物】史莱姆",
+		"unitType": "Sword",
+		"uniqueTo": "Barbarians",
+		"movement": 1,
+		"strength": 6,
+		"cost": 20,
+		"attackSound": "nonmetalhit"
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"promotions": ["Ignore terrain cost"],
+	},	
+	{
+		"name": "Brute",
+		"unitType": "Sword",
+		"uniqueTo": "混沌鼠人帝国",
+		"replaces": "Warrior",
+		"movement": 2,
+		"strength": 5,
+		"cost": 20,
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Archer",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 5,
+		"rangedStrength": 7,
+		"cost": 40,
+		"requiredTech": "Archery",
+		"obsoleteTech": "Construction",
+		"upgradesTo": "Composite Bowman",
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Work Boats",
+		"unitType": "Civilian Water",
+		"movement": 4,
+		"cost": 30,
+		"requiredTech": "Sailing",
+		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>", "May create improvements on water resources", "Uncapturable"]
+	},
+	{
+		"name": "Trireme",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 10,
+		"cost": 45,
+		"requiredTech": "Sailing",
+		"uniques": ["Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
+		"upgradesTo": "Caravel",
+		"obsoleteTech": "Astronomy",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Galley",
+		"unitType": "Melee Water",
+		"uniqueTo": "混沌鼠人帝国",
+		"movement": 3,
+		"strength": 7,
+		"cost": 40,
+		"uniques": ["Cannot enter ocean tiles"],
+		"upgradesTo": "Trireme",
+		"obsoleteTech": "Astronomy",
+		"attackSound": "nonmetalhit"
+		//Barbarian unique naval unit, weaker and slower than Trireme.
+	},
+	{
+		"name": "Chariot Archer",
+		"unitType": "Archery",
+		"movement": 4,
+		"strength": 6,
+		"rangedStrength": 10,
+		"cost": 56,
+		"requiredTech": "The Wheel",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "Never appears as a Barbarian unit"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Spearman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 11,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Guilds",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Horseman",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 13,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>" ],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	{
+		"name": "Catapult",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 8,
+		"cost": 75,
+		"requiredTech": "Mathematics",
+		"obsoleteTech": "Physics",
+		"upgradesTo": "Trebuchet",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus",
+			"Must set up to ranged attack", "[-1] Sight", "Never appears as a Barbarian unit"],
+		"hurryCostModifier": 20,
+		"attackSound": "throw"
+	},
+	{
+		"name": "Composite Bowman",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 11,
+		"cost": 75,
+		"requiredTech": "Construction",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	/*
+	{
+		"name": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman", 
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+		// Barbarian unique Swordsman. Has same icon and name but slightly different 3d texture
+	},
+	*/
+
+	// Medieval Era
+	{
+		"name": "Pikeman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 16,
+		"cost": 90,
+		"requiredTech": "Guilds",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Galleass",
+		"unitType": "Ranged Water",
+		"movement": 3,
+		"strength": 16,
+		"rangedStrength": 17,
+		"cost": 100,
+		"requiredTech": "Compass",
+		"uniques": ["Cannot enter ocean tiles"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Knight",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 20,
+		"cost": 120,
+		"requiredTech": "Chivalry",  
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Crossbowman",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 18,
+		"cost": 120,
+		"requiredTech": "Machinery", 
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Longbowman",
+		"unitType": "Archery",
+		"range": 2,
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 18,
+		"replaces": "Crossbowman",
+		"uniqueTo": "England",
+		"cost": 120,
+		"requiredTech": "Machinery", 
+		"promotions": ["射程强化"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Trebuchet",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 12,
+		"rangedStrength": 14,
+		"cost": 120,
+		"requiredTech": "Physics",  
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight","Never appears as a Barbarian unit"],
+		"attackSound": "throw"
+	},
+	{
+		"name": "Longswordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 21,
+		"cost": 120,
+ 		"requiredTech": "Steel",
+		"requiredResource": "Iron",
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Caravel",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 20,
+		"cost": 120,
+		"requiredTech": "Astronomy", 
+		"uniques": ["[+1] Sight", "May withdraw before melee ([80]%)"],
+		"hurryCostModifier": 30,
+		"attackSound": "cannon"
+	},
+
+	/* Great people */
+
+	{
+		"name": "Great Artist",
+		"unitType": "Civilian",
+		"uniques": ["Can start an [8]-turn golden age", "Can construct [Landmark]", "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Scientist",
+		"unitType": "Civilian",
+		"uniques": ["Can hurry technology research", "Can construct [Academy]", "Great Person - [Science]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Merchant",
+		"unitType": "Civilian",
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+			"Can construct [Customs house]", "Great Person - [Gold]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Engineer",
+		"unitType": "Civilian",
+		"uniques": ["Can speed up construction of a building", "Can construct [Manufactory]", "Great Person - [Production]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Prophet",
+		"unitType": "Civilian",
+		"uniques": ["Can construct [Holy site] <if it hasn't used other actions yet>", "Can [Spread Religion] [4] times",
+			"Removes other religions when spreading religion", "May found a religion", "May enhance a religion",
+			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]",
+			"Unbuildable", "Religious Unit", "Hidden when religion is disabled",
+			"Takes your religion over the one in their birth city"],
+		"movement": 2,
+		"religiousStrength": 1000
+	},
+	{
+		"name": "Great General",
+		"unitType": "Civilian",
+		"uniques": ["Can start an [8]-turn golden age", "[+15]% Strength bonus for [Military] units within [2] tiles", "Can construct [Citadel]",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Missionary",
+		"unitType": "Civilian",
+		"uniques": ["Can [Spread Religion] [2] times", "May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[-1] Sight", "Unbuildable", "Religious Unit", "Hidden when religion is disabled"],
+		"movement": 4,
+		"religiousStrength": 1000
+	},
+	{
+		"name": "Inquisitor",
+		"unitType": "Civilian",
+		"uniques": ["Prevents spreading of religion to the city it is next to",
+			"Can [Remove Foreign religions from your own cities] [1] times",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]",
+			"[+1] Sight", "Hidden when religion is disabled", "Unbuildable", "Religious Unit"
+		],
+		"movement": 3
+	},
+]

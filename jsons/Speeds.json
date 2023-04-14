@@ -1,0 +1,30 @@
+[
+    {
+        "name": "神域时空流速",
+        "modifier": 1.0,
+        "productionCostModifier": 0.67,
+        "goldCostModifier": 1.0,
+        "scienceCostModifier": 1.0,
+        "cultureCostModifier": 1.0,
+        "faithCostModifier": 1.0,
+        "improvementBuildLengthModifier": 0.5,
+        "barbarianModifier": 1.0,
+        "goldGiftModifier": 1.0,
+        "cityStateTributeScalingInterval": 5,
+        "goldenAgeLengthModifier": 1.0,
+        "religiousPressureAdjacentCity": 20,
+        "peaceDealDuration": 1,
+        "dealDuration": 25,
+        "startYear": -4000,
+        "turns": [
+            {"yearsPerTurn":  40, "untilTurn": 75},
+            {"yearsPerTurn":  25, "untilTurn": 135},
+            {"yearsPerTurn":  20, "untilTurn": 160},
+            {"yearsPerTurn":  10, "untilTurn": 210},
+            {"yearsPerTurn":   5, "untilTurn": 270},
+            {"yearsPerTurn":   2, "untilTurn": 320},
+            {"yearsPerTurn":   1, "untilTurn": 440},
+            {"yearsPerTurn": 0.5, "untilTurn": 500}
+        ]
+    },
+]

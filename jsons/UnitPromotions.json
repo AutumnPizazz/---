@@ -1,0 +1,399 @@
+[
+        {
+	 "name": "Heal Instantly",
+	 "uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+	 "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber","英雄"],
+        "row": 0,
+        "column": 0,
+        },
+	 {
+	 "name": "Ignore terrain cost",
+	 "uniques": ["Ignores terrain cost"],
+	 "row": 0,
+        "column": 1,
+	 },        
+        {
+        "name": "一阶攻击强化",
+        "uniques": ["[+20]% Strength <when attacking>"]
+        "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber","英雄"],
+        },
+        {
+        "name": "二阶攻击强化",
+        "prerequisites": ["一阶攻击强化"],
+        "uniques": ["[+20]% Strength <when attacking>"]
+        "column": 1,
+        "row": 2,       
+        "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber","英雄"],
+        },
+        {
+        "name": "一阶灵能提升",
+        "uniques": ["[+10]% Strength"]
+        "column": 1,
+        "row": 5,     
+        "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber","英雄"],
+        },
+        {
+        "name": "二阶灵能提升",
+        "prerequisites": ["一阶灵能提升"],
+        "uniques": ["[+10]% Strength"]
+        "column": 1,
+        "row": 6,       
+        "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber","英雄"],
+        },           
+        {
+        "name": "一阶防御强化",
+        "uniques": ["[+20]% Strength <when defending>"]
+        "column": 1,
+        "row": 9,        
+        "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber","英雄"],
+        },
+        {
+        "name": "二阶防御强化",
+        "prerequisites": ["一阶防御强化"],
+        "uniques": ["[+20]% Strength <when defending>"]
+        "column": 1,
+        "row": 10,        
+        "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber","英雄"],
+        },
+        {
+        "name": "一阶回复魔法",
+        "uniques": ["[+10] HP when healing"],
+        "column": 1,
+        "row": 13,        
+        "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber","英雄"],
+        },
+        {
+        "name": "二阶回复魔法",
+        "prerequisites": ["一阶回复魔法"],
+        "uniques": ["[+10] HP when healing"],
+        "column": 1,
+        "row": 14,
+        "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber","英雄"],
+        },
+        {
+        "name": "战吼—嗜血",
+        "prerequisites": ["二阶攻击强化"],
+        "uniques":["Heals [30] damage if it kills a unit"],
+        "column": 2,
+        "row": 2,        
+        "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber","英雄"],
+        },  
+        {
+        "name": "战吼—狂暴",
+        "prerequisites": ["战吼—嗜血"],
+         "uniques": ["[1] additional attacks per turn","Can move after attacking","[+1] Movement"],
+        "column": 2,
+        "row": 3,         
+        "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber","英雄"],
+        },
+        {
+        "name": "灵能—空降",
+        "prerequisites": ["二阶灵能提升"],
+        "uniques": ["May Paradrop up to [6] tiles from inside friendly territory"],
+        "column": 2,
+        "row": 6,        
+        "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber","英雄"],
+        },
+        {
+        "name": "灵能—链接",
+        "prerequisites": ["灵能—空降"],
+        "uniques": ["[+10]% Strength bonus for [Military] units within [3] tiles"],
+        "column": 2,
+        "row": 7,        
+        "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber","英雄"],
+        },                
+        {
+        "name": "守护—群愈",
+        "prerequisites": ["二阶防御强化"],
+        "uniques": ["All adjacent units heal [+10] HP when healing"],
+        "column": 2,
+        "row": 10,        
+        "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber","英雄"],
+        },
+        {
+        "name": "守护—自愈",
+        "prerequisites": ["守护—群愈"],
+        "uniques": ["All healing effects doubled"],
+        "column": 2,
+        "row": 11,        
+        "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber","英雄"],
+        },                
+        {
+        "name": "圣疗—群愈",
+        "prerequisites": ["二阶回复魔法"],
+        "uniques": ["All adjacent units heal [+10] HP when healing"],
+        "column": 2,
+        "row": 14,        
+        "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber","英雄"],
+        },
+        {
+        "name": "圣疗—无限",
+        "prerequisites": ["圣疗—群愈"],
+        "uniques": ["Unit will heal every turn, even if it performs an action"],
+        "column": 2,
+        "row": 15,        
+        "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber","英雄"],
+        },
+        {
+        "name": "战术—侦查",
+        "uniques": ["[+1] Movement","[+1] Sight"]
+        "column": 3,
+        "row": 1,
+        "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber","英雄"], 
+        },
+        {
+        "name": "战术—渗透",
+        "uniques": ["May enter foreign tiles without open borders"]
+        "column": 3,
+        "row": 2,
+        "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber","英雄"], 
+        },        
+        {
+        "name": "战吼—无畏",
+        "uniques": ["Damage is ignored when determining unit Strength"],
+        "column": 3,
+        "row": 3,        
+        "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber","英雄"],
+        },                                             
+        {
+        "name": "战术—军威",
+	 "uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles"]
+        "column": 3,
+        "row": 5,	 
+        "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber","英雄"],
+        },
+        {
+        "name": "战术—侧击",
+	 "uniques": ["[+100]% to Flank Attack bonuses"]
+        "column": 3,
+        "row": 6,	 
+        "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber","英雄"],
+	 }, 
+        {
+        "name": "战术—护卫",
+        "uniques": [
+        "Transfer Movement to [Settler]",
+        "[+20]% Strength when stacked with [Settler]",
+        "Transfer Movement to [Great General]",
+        "[+20]% Strength when stacked with [Great General]",
+        "Transfer Movement to [Worker]",
+        "[+20]% Strength when stacked with [Worker]"],
+        "column": 3,
+        "row": 8,
+        "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber","英雄"], 
+        },
+        {
+        "name": "战术—冲锋",
+        "uniques": ["[+30]% Strength <when attacking>","[-20]% Strength <when defending>"]
+        "column": 3,
+        "row": 10,
+        "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber","英雄"], 
+        },
+        {
+        "name": "战术—坚守",
+        "uniques": ["[-20]% Strength <when attacking>","[+30]% Strength <when defending>"]
+        "column": 3,
+        "row": 11,
+        "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber","英雄"], 
+        },	 	  	 	 
+	 {
+        "name": "战术—卫国", 
+	 "uniques": ["[+10]% Strength","[+10]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"]
+        "column": 3,
+        "row": 12,	 
+        "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber","英雄"],
+	 },
+	 {
+        "name": "战术—侵略", 
+	 "uniques": ["[+10]% Strength","[+10]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>"],
+        "column": 3,
+        "row": 13,	 
+        "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber","英雄"],
+	 },
+	 {
+        "name": "战术—猛攻", 
+	 "uniques": ["[+25]% Strength <vs [Wounded] units><when attacking>"],
+        "column": 3,
+        "row": 15,	 
+        "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber","英雄"],
+	 },
+	 {
+        "name": "战术—隐蔽", 
+	 "uniques": ["[+30]% Strength <vs [Ranged] units> <when defending>"],
+        "column": 3,
+        "row": 16,	 
+        "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber","英雄"],
+	 },
+	 {
+        "name": "战术—列阵", 
+	 "uniques": ["[+30]% Strength <vs [Mounted] units> <when defending>"],
+        "column": 3,
+        "row": 17,	 
+        "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber","英雄"],
+	 },
+	 {
+        "name": "战术—齐射", 
+	 "uniques": ["[+100]% Strength <vs cities> <when attacking>"],
+        "column": 3,
+        "row": 18,	 
+        "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber","英雄"],	 	 	},	 	 
+	 {
+        "name": "工匠—功能", 
+	 "uniques": ["Can build [Road] improvements on tiles",
+	 "Can build [Fort] improvements on tiles","[+10]% Strength"],
+        "column": 4,
+        "row": 1,	 
+        "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber","英雄"],
+	 },
+	 {
+        "name": "工匠—全能", 
+	 "uniques": ["Can build [Land] improvements on tiles","[+10]% Strength"],
+        "column": 4,
+        "row": 2,
+        "prerequisites": ["工匠—功能"],	 
+        "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber","英雄"],
+	 },    	     	    	 	 
+	 {
+        "name": "强化—平坦", 
+	 "uniques": ["[+20]% Strength <when fighting in [Grassland] tiles>","[+20]% Strength <when fighting in [Plains] tiles>"],
+        "column": 5,
+        "row": 1,	 
+        "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber","英雄"],
+	 },	 
+	 {
+        "name": "强化—恶土", 
+	 "uniques": ["[+20]% Strength <when fighting in [Desert] tiles>","[+20]% Strength <when fighting in [Tundra] tiles>","[+20]% Strength <when fighting in [Snow] tiles>"],
+        "column": 5,
+        "row": 2,	 
+        "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber","英雄"],
+	 },
+	 {
+        "name": "强化—丘陵", 
+	 "uniques": ["[+20]% Strength <when fighting in [Hill] tiles>"],
+        "column": 5,
+        "row": 3,	 
+        "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber","英雄"],
+	 },
+	 {
+        "name": "强化—树木", 
+	 "uniques": ["[+20]% Strength <when fighting in [Forest] tiles>","[+20]% Strength <when fighting in [Jungle] tiles>"],
+        "column": 5,
+        "row": 4,	 
+        "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber","英雄"],
+	 },	 
+        {
+        "name": "强化—水泽", 
+	 "uniques": ["[+35]% Strength <when fighting in [Marsh] tiles>","[+30]% Strength <when fighting in [Flood plains] tiles>","[+30]% Strength <when fighting in [Oasis] tiles>","Double movement in [Marsh]"],
+        "column": 5,
+        "row": 5,	 
+        "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber","英雄"],
+	 },
+        {
+	 "name": "林中行者",
+	 "prerequisites": ["强化—平坦","强化—恶土","强化—丘陵","强化—树木","强化—水泽"],
+	 "uniques": ["Double movement in [Forest]","Double movement in [Jungle]"],
+        "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber","英雄"],
+    	 },
+        {
+	 "name": "丘陵行者",
+	 "prerequisites": ["强化—平坦","强化—恶土","强化—丘陵","强化—树木","强化—水泽"],
+	 "uniques": ["Double movement in [Hill]"],      
+        "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber","英雄"],
+    	 },
+        {
+	 "name": "风行者",
+	 "prerequisites": ["强化—平坦","强化—恶土","强化—丘陵","强化—树木","强化—水泽"],
+	 "uniques": ["[-20]% Strength","Double movement in [All]"]          
+        "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber","英雄"],
+    	 },
+        {
+        "name": "基础魔法",
+        "uniques": ["[+10]% Strength"],
+        "column": 6,
+        "row": 1,
+        },	 	 
+        {	 
+        "name": "英雄之力",
+        "uniques": ["[+10]% Strength bonus for [Military] units within [3] tiles","[+50]% Strength <during the [Classical era]>","[+100]% Strength <during the [Medieval era]>"],
+        "unitTypes": ["英雄"],
+        "column": 7,
+        "row": 1,
+        },
+        {
+	 "name": "黑暗魔法",
+	 "uniques": [
+	 "May capture killed [All] units",
+	 "[-10] HP when healing",
+	 "Heals [50] damage if it kills a unit",
+	 ],
+        "column": 7,
+        "row": 2,
+        },
+        {
+	 "name": "灵魂魔法",
+	 "uniques": [
+	 "Earn [10]% of killed [Military] unit's [Cost] as [Faith]",
+        "Earn [10]% of killed [Military] unit's [Cost] as [Gold]",
+	 "Earn [10]% of killed [Military] unit's [Cost] as [Culture]",
+	 "Earn [10]% of killed [Military] unit's [Cost] as [Science]",	 	 	 
+	 ],
+        "column": 7,
+        "row": 3,
+        },         	 	  	
+        {
+        "name": "恐虐赐福",
+        "uniques": ["Earn [50]% of killed [Military] unit's [Cost] as [Faith]"],
+        "column": 7,
+        "row": 4,
+        },
+        {
+        "name": "瘟疫",
+	 "uniques": ["[+20]% Strength <vs [Wounded] units><when attacking>"],        
+	 "column": 7,
+        "row": 5,
+        },
+        {
+        "name": "脚蹼",
+        "uniques": ["May attack when embarked"],
+        "column": 7,
+        "row": 6,
+        },
+        {
+	 "name": "射程强化",
+	 "uniques": ["[+1] Range","Ranged attacks may be performed over obstacles"],
+        "column": 7,
+        "row": 9,
+    	 },
+	 {
+	 "name": "Amphibious",
+	 "uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast"],       
+        "column": 7,
+        "row": 10,
+	 },	
+
+	 {
+		"name": "Morale",
+		"uniques": ["[+15]% Strength"]
+	 },
+	 {
+		"name": "Rejuvenation",
+		"uniques": ["All healing effects doubled"]
+	 },{
+	"name":"隐藏",
+	"uniques":["Invisible to non-adjacent units"],
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]
